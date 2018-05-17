@@ -19,10 +19,10 @@ public class FindInPartiallySortedMatrix {
                     found = true;
                     break;
                 }else if(matrix[row][column] > number){
-                    --column;
+                    column--;
 
                 }else {
-                    ++row;
+                    row++;
                 }
             }
 
