@@ -1,6 +1,5 @@
 package nextNodeInBinaryTrees;
 
-import constructBinaryTree.ConstructBinaryTree;
 import org.junit.Test;
 
 /**
@@ -115,7 +114,7 @@ public class NextNodeInBinaryTrees {
             System.out.println("Failed.");
         }
     }
-    
+
     //            8
     //        6      10
     //       5 7    9  11
