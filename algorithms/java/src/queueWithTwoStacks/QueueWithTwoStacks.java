@@ -69,5 +69,6 @@ public class QueueWithTwoStacks {
 
         head = queue.deleteHead();
         TestQueue(head, "e");
+
     }
 }
