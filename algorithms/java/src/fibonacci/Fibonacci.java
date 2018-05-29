@@ -1,6 +1,6 @@
 package fibonacci;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 /**
  * 斐波那契数列
