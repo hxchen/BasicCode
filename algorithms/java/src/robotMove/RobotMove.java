@@ -68,7 +68,7 @@ public class RobotMove {
      */
     public static boolean check(int threshold, int rows, int cols, int row, int col, boolean[] visited){
        if(row >= 0 && row < rows && col >= 0 && col < cols &&getDigitSum(row) + getDigitSum(col) <= threshold && !visited[row*cols +col]) {
-           System.out.println("[" + row + "," + col + "]");
+//           System.out.println("[" + row + "," + col + "]");
            return true;
        }
         return false;
