@@ -3,7 +3,9 @@ package math;
 import org.junit.Assert;
 import org.testng.annotations.Test;
 
-/**
+/**数值的整数次方
+ * 题目：实现函数double Power(double base, int exponent)，求base的exponent
+ * 次方。不得使用库函数，同时不需要考虑大数问题。
  * Created by hxchen on 2018/6/3.
  */
 public class JMath {
@@ -52,5 +54,13 @@ public class JMath {
     @Test
     public void test5(){
         Assert.assertEquals(power(2,-3),0.125,0.000001);
+    }
+    @Test
+    public void test6(){
+        Assert.assertEquals(power(-2,3),-8,0.000001);
+    }
+    @Test
+    public void test7(){
+        Assert.assertEquals(power(-2,-3),-0.125,0.000001);
     }
 }
