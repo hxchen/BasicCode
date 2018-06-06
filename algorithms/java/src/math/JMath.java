@@ -63,4 +63,9 @@ public class JMath {
     public void test7(){
         Assert.assertEquals(power(-2,-3),-0.125,0.000001);
     }
+    @Test
+    public void test8(){
+        int code = 3;
+        Assert.assertTrue(code == 3);
+    }
 }
