@@ -22,5 +22,15 @@ public class ListNode {
     public static void ConnectListNode(ListNode firstNode, ListNode secondNode){
         firstNode.next = secondNode;
     }
+    public static void PrintNode(ListNode head){
+        if (head == null){
+            System.out.print("空链表");
+        }
+        while (head != null){
+            System.out.print(head.value+"   ");
+            head = head.next;
+        }
+        System.out.println();
+    }
 
 }
