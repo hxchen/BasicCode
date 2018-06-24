@@ -9,7 +9,7 @@ import org.junit.Test;
 public class PrintMatrix {
 
 
-    public static void PrintMatrixClockwisely(int[][] matrix, int rows, int columns){
+    public static void PrintMatrixClockwisely(int[][] matrix){
         if (matrix == null || matrix.length == 0) {
             return;
         }
@@ -54,7 +54,7 @@ public class PrintMatrix {
                 numbers[i][j] = i*columns+j+1;
             }
         }
-        PrintMatrixClockwisely(numbers, columns, rows);
+        PrintMatrixClockwisely(numbers);
         System.out.println();
     }
     @Test
