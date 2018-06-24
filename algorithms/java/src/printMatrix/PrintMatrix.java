@@ -40,10 +40,19 @@ public class PrintMatrix {
             start++;
         }
     }
+    // 逐行打印矩阵
+    public static void printMatrixOriginal(int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                System.out.print(matrix[i][j] + "\t\t");
+            }
+            System.out.println();
+        }
+    }
 
     // ====================测试代码====================
     public static void Test(int columns, int rows){
-        System.out.format("Test Begin: %d columns, %d rows.\n", columns, rows);
+//        System.out.format("Test Begin: %d columns, %d rows.\n", columns, rows);
 
         if(columns < 1 || rows < 1)
             return;
@@ -54,6 +63,9 @@ public class PrintMatrix {
                 numbers[i][j] = i*columns+j+1;
             }
         }
+        System.out.println("原来创建的矩阵：");
+        printMatrixOriginal(numbers);
+        System.out.println("顺时针打印矩阵：");
         PrintMatrixClockwisely(numbers);
         System.out.println();
     }
