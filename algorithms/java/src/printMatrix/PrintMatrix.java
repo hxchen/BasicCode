@@ -23,7 +23,7 @@ public class PrintMatrix {
                 System.out.print(matrix[start][i]+"\t");
             }
             if (start < endY) {
-                for (int i = start + 1; i <= endY; i++) { // 从下到上
+                for (int i = start + 1; i <= endY; i++) { // 从上到下
                     System.out.print(matrix[i][endX]+"\t");
                 }
             }
