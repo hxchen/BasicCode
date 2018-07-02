@@ -49,27 +49,27 @@ public class PrintTreeInZigzag {
     //       5 7    9  11
     @Test
     public void Test1() {
-        BinaryTreeNode pNode8 = new BinaryTreeNode(8);
-        BinaryTreeNode pNode6 = new BinaryTreeNode(6);
-        BinaryTreeNode pNode10 = new BinaryTreeNode(10);
-        BinaryTreeNode pNode5 = new BinaryTreeNode(5);
-        BinaryTreeNode pNode7 = new BinaryTreeNode(7);
-        BinaryTreeNode pNode9 = new BinaryTreeNode(9);
-        BinaryTreeNode pNode11 = new BinaryTreeNode(11);
+        BinaryTreeNode node8 = new BinaryTreeNode(8);
+        BinaryTreeNode node6 = new BinaryTreeNode(6);
+        BinaryTreeNode node10 = new BinaryTreeNode(10);
+        BinaryTreeNode node5 = new BinaryTreeNode(5);
+        BinaryTreeNode node7 = new BinaryTreeNode(7);
+        BinaryTreeNode node9 = new BinaryTreeNode(9);
+        BinaryTreeNode node11 = new BinaryTreeNode(11);
 
-        BinaryTreeNode.ConnectTreeNode(pNode8, pNode6, pNode10);
-        BinaryTreeNode.ConnectTreeNode(pNode6, pNode5, pNode7);
-        BinaryTreeNode.ConnectTreeNode(pNode10, pNode9, pNode11);
+        BinaryTreeNode.ConnectTreeNode(node8, node6, node10);
+        BinaryTreeNode.ConnectTreeNode(node6, node5, node7);
+        BinaryTreeNode.ConnectTreeNode(node10, node9, node11);
 
-        System.out.println("====Test1 Begins: ====\n");
-        System.out.println("Expected Result is:\n");
-        System.out.println("8 \n");
-        System.out.println("10 6 \n");
-        System.out.println("5 7 9 11 \n\n");
+        System.out.println("====Test1 Begins: ====");
+        System.out.println("Expected Result is:");
+        System.out.println("8 ");
+        System.out.println("10 6 ");
+        System.out.println("5 7 9 11 ");
 
-        System.out.println("Actual Result is: \n");
-        PrintTreeInZigzag(pNode8);
-        System.out.println("\n");
+        System.out.println("Actual Result is: ");
+        PrintTreeInZigzag(node8);
+        System.out.println("");
 
     }
 
@@ -79,25 +79,25 @@ public class PrintTreeInZigzag {
     //      2
     @Test
     public void Test2() {
-        BinaryTreeNode pNode5 = new BinaryTreeNode(5);
-        BinaryTreeNode pNode4 = new BinaryTreeNode(4);
-        BinaryTreeNode pNode3 = new BinaryTreeNode(3);
-        BinaryTreeNode pNode2 = new BinaryTreeNode(2);
+        BinaryTreeNode node5 = new BinaryTreeNode(5);
+        BinaryTreeNode node4 = new BinaryTreeNode(4);
+        BinaryTreeNode node3 = new BinaryTreeNode(3);
+        BinaryTreeNode node2 = new BinaryTreeNode(2);
 
-        BinaryTreeNode.ConnectTreeNode(pNode5, pNode4, null);
-        BinaryTreeNode.ConnectTreeNode(pNode4, pNode3, null);
-        BinaryTreeNode.ConnectTreeNode(pNode3, pNode2, null);
+        BinaryTreeNode.ConnectTreeNode(node5, node4, null);
+        BinaryTreeNode.ConnectTreeNode(node4, node3, null);
+        BinaryTreeNode.ConnectTreeNode(node3, node2, null);
 
-        System.out.println("====Test2 Begins: ====\n");
-        System.out.println("Expected Result is:\n");
-        System.out.println("5 \n");
-        System.out.println("4 \n");
-        System.out.println("3 \n");
-        System.out.println("2 \n\n");
+        System.out.println("====Test2 Begins: ====");
+        System.out.println("Expected Result is:");
+        System.out.println("5 ");
+        System.out.println("4 ");
+        System.out.println("3 ");
+        System.out.println("2 ");
 
-        System.out.println("Actual Result is: \n");
-        PrintTreeInZigzag(pNode5);
-        System.out.println("\n");
+        System.out.println("Actual Result is: ");
+        PrintTreeInZigzag(node5);
+        System.out.println("");
 
     }
 
@@ -107,50 +107,50 @@ public class PrintTreeInZigzag {
     //           2
     @Test
     public void Test3() {
-        BinaryTreeNode pNode5 = new BinaryTreeNode(5);
-        BinaryTreeNode pNode4 = new BinaryTreeNode(4);
-        BinaryTreeNode pNode3 = new BinaryTreeNode(3);
-        BinaryTreeNode pNode2 = new BinaryTreeNode(2);
+        BinaryTreeNode node5 = new BinaryTreeNode(5);
+        BinaryTreeNode node4 = new BinaryTreeNode(4);
+        BinaryTreeNode node3 = new BinaryTreeNode(3);
+        BinaryTreeNode node2 = new BinaryTreeNode(2);
 
-        BinaryTreeNode.ConnectTreeNode(pNode5, null, pNode4);
-        BinaryTreeNode.ConnectTreeNode(pNode4, null, pNode3);
-        BinaryTreeNode.ConnectTreeNode(pNode3, null, pNode2);
+        BinaryTreeNode.ConnectTreeNode(node5, null, node4);
+        BinaryTreeNode.ConnectTreeNode(node4, null, node3);
+        BinaryTreeNode.ConnectTreeNode(node3, null, node2);
 
-        System.out.println("====Test3 Begins: ====\n");
-        System.out.println("Expected Result is:\n");
-        System.out.println("5 \n");
-        System.out.println("4 \n");
-        System.out.println("3 \n");
-        System.out.println("2 \n\n");
+        System.out.println("====Test3 Begins: ====");
+        System.out.println("Expected Result is:");
+        System.out.println("5 ");
+        System.out.println("4 ");
+        System.out.println("3 ");
+        System.out.println("2 ");
 
-        System.out.println("Actual Result is: \n");
-        PrintTreeInZigzag(pNode5);
-        System.out.println("\n");
+        System.out.println("Actual Result is: ");
+        PrintTreeInZigzag(node5);
+        System.out.println("");
 
     }
 
     @Test
     public void Test4() {
-        BinaryTreeNode pNode5 = new BinaryTreeNode(5);
+        BinaryTreeNode node5 = new BinaryTreeNode(5);
 
-        System.out.println("====Test4 Begins: ====\n");
-        System.out.println("Expected Result is:\n");
-        System.out.println("5 \n\n");
+        System.out.println("====Test4 Begins: ====");
+        System.out.println("Expected Result is:");
+        System.out.println("5 ");
 
-        System.out.println("Actual Result is: \n");
-        PrintTreeInZigzag(pNode5);
-        System.out.println("\n");
+        System.out.println("Actual Result is: ");
+        PrintTreeInZigzag(node5);
+        System.out.println("");
 
     }
 
     @Test
     public void Test5() {
-        System.out.println("====Test5 Begins: ====\n");
-        System.out.println("Expected Result is:\n");
+        System.out.println("====Test5 Begins: ====");
+        System.out.println("Expected Result is");
 
-        System.out.println("Actual Result is: \n");
+        System.out.println("Actual Result is: ");
         PrintTreeInZigzag(null);
-        System.out.println("\n");
+        System.out.println("");
     }
 
     //        100
@@ -161,22 +161,22 @@ public class PrintTreeInZigzag {
     @Test
     public void Test6()
     {
-        BinaryTreeNode pNode100 = new BinaryTreeNode(100);
+        BinaryTreeNode node100 = new BinaryTreeNode(100);
         BinaryTreeNode pNode50 = new BinaryTreeNode(50);
         BinaryTreeNode pNode150 = new BinaryTreeNode(150);
 
-        BinaryTreeNode.ConnectTreeNode(pNode100, pNode50, null);
+        BinaryTreeNode.ConnectTreeNode(node100, pNode50, null);
         BinaryTreeNode.ConnectTreeNode(pNode50, null, pNode150);
 
-        System.out.println("====Test6 Begins: ====\n");
-        System.out.println("Expected Result is:\n");
-        System.out.println("100 \n");
-        System.out.println("50 \n");
-        System.out.println("150 \n\n");
+        System.out.println("====Test6 Begins: ====");
+        System.out.println("Expected Result is:");
+        System.out.println("100 ");
+        System.out.println("50 ");
+        System.out.println("150 ");
 
-        System.out.println("Actual Result is: \n");
-        PrintTreeInZigzag(pNode100);
-        System.out.println("\n");
+        System.out.println("Actual Result is: ");
+        PrintTreeInZigzag(node100);
+        System.out.println("");
     }
 
     //                8
@@ -185,40 +185,40 @@ public class PrintTreeInZigzag {
     //   1  3  5  7     9 11   13  15
     @Test
     public void Test7() {
-        BinaryTreeNode pNode8 = new BinaryTreeNode(8);
-        BinaryTreeNode pNode4 = new BinaryTreeNode(4);
-        BinaryTreeNode pNode12 = new BinaryTreeNode(12);
-        BinaryTreeNode pNode2 = new BinaryTreeNode(2);
-        BinaryTreeNode pNode6 = new BinaryTreeNode(6);
-        BinaryTreeNode pNode10 = new BinaryTreeNode(10);
-        BinaryTreeNode pNode14 = new BinaryTreeNode(14);
-        BinaryTreeNode pNode1 = new BinaryTreeNode(1);
-        BinaryTreeNode pNode3 = new BinaryTreeNode(3);
-        BinaryTreeNode pNode5 = new BinaryTreeNode(5);
-        BinaryTreeNode pNode7 = new BinaryTreeNode(7);
-        BinaryTreeNode pNode9 = new BinaryTreeNode(9);
-        BinaryTreeNode pNode11 = new BinaryTreeNode(11);
-        BinaryTreeNode pNode13 = new BinaryTreeNode(13);
-        BinaryTreeNode pNode15 = new BinaryTreeNode(15);
+        BinaryTreeNode node8 = new BinaryTreeNode(8);
+        BinaryTreeNode node4 = new BinaryTreeNode(4);
+        BinaryTreeNode node12 = new BinaryTreeNode(12);
+        BinaryTreeNode node2 = new BinaryTreeNode(2);
+        BinaryTreeNode node6 = new BinaryTreeNode(6);
+        BinaryTreeNode node10 = new BinaryTreeNode(10);
+        BinaryTreeNode node14 = new BinaryTreeNode(14);
+        BinaryTreeNode node1 = new BinaryTreeNode(1);
+        BinaryTreeNode node3 = new BinaryTreeNode(3);
+        BinaryTreeNode node5 = new BinaryTreeNode(5);
+        BinaryTreeNode node7 = new BinaryTreeNode(7);
+        BinaryTreeNode node9 = new BinaryTreeNode(9);
+        BinaryTreeNode node11 = new BinaryTreeNode(11);
+        BinaryTreeNode node13 = new BinaryTreeNode(13);
+        BinaryTreeNode node15 = new BinaryTreeNode(15);
 
-        BinaryTreeNode.ConnectTreeNode(pNode8, pNode4, pNode12);
-        BinaryTreeNode.ConnectTreeNode(pNode4, pNode2, pNode6);
-        BinaryTreeNode.ConnectTreeNode(pNode12, pNode10, pNode14);
-        BinaryTreeNode.ConnectTreeNode(pNode2, pNode1, pNode3);
-        BinaryTreeNode.ConnectTreeNode(pNode6, pNode5, pNode7);
-        BinaryTreeNode.ConnectTreeNode(pNode10, pNode9, pNode11);
-        BinaryTreeNode.ConnectTreeNode(pNode14, pNode13, pNode15);
+        BinaryTreeNode.ConnectTreeNode(node8, node4, node12);
+        BinaryTreeNode.ConnectTreeNode(node4, node2, node6);
+        BinaryTreeNode.ConnectTreeNode(node12, node10, node14);
+        BinaryTreeNode.ConnectTreeNode(node2, node1, node3);
+        BinaryTreeNode.ConnectTreeNode(node6, node5, node7);
+        BinaryTreeNode.ConnectTreeNode(node10, node9, node11);
+        BinaryTreeNode.ConnectTreeNode(node14, node13, node15);
 
-        System.out.println("====Test7 Begins: ====\n");
-        System.out.println("Expected Result is:\n");
-        System.out.println("8 \n");
-        System.out.println("12 4 \n");
-        System.out.println("2 6 10 14 \n");
-        System.out.println("15 13 11 9 7 5 3 1 \n\n");
+        System.out.println("====Test7 Begins: ====");
+        System.out.println("Expected Result is:");
+        System.out.println("8 ");
+        System.out.println("12 4 ");
+        System.out.println("2 6 10 14 ");
+        System.out.println("15 13 11 9 7 5 3 1 ");
 
-        System.out.println("Actual Result is: \n");
-        PrintTreeInZigzag(pNode8);
-        System.out.println("\n");
+        System.out.println("Actual Result is: ");
+        PrintTreeInZigzag(node8);
+        System.out.println("");
 
     }
 }
