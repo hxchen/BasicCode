@@ -17,7 +17,7 @@ public class PathInTree {
     public static void findPath(BinaryTreeNode root, int total){
         if (null == root)
             return;
-        Vector<Integer> path = new Vector<>();
+        Vector<Integer> path = new Vector<>();// vector,重要的数据结构
         int currentSum =0;
 
         findPath(root, total, path, currentSum);
