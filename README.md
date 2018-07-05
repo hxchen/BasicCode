@@ -10,3 +10,4 @@
 - [32-3. 之字形打印二叉树](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/printTreeFromTopToBottom/PrintTreeInZigzag.java)
 - [33. 二叉搜索树的后序遍历序列](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/sequenceOfBST/SequenceOfBST.java)
 - [34. 二叉树中和为某一值的路径](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/pathInTree/PathInTree.java)
+- [34. 复杂链表的复制](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/copyComplexList/CopyComplexList.java)
