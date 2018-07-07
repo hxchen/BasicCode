@@ -1,4 +1,4 @@
-package serializeBinaryTrees;
+package sserializeBinaryTrees;
 
 import commonDataStructures.BinaryTreeNode;
 import org.junit.Assert;
