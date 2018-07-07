@@ -45,4 +45,14 @@ public class BinaryTreeNode {
             }
         }
     }
+
+    public static Boolean isSameTree(BinaryTreeNode tree1, BinaryTreeNode tree2){
+        if (tree1 == null && tree2 == null)
+            return true;
+        if (tree1 == null || tree2 == null)
+            return false;
+        if (tree1.value == tree2.value)
+            return true;
+        return isSameTree(tree1.left, tree2.left) && isSameTree(tree1.right, tree2.right);
+    }
 }
