@@ -1,6 +1,6 @@
 # BasicCode
 
-- [25. 反转链表](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/reverseList/ReverseList.java)
+- [24. 反转链表](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/reverseList/ReverseList.java)
 - [25. 合并两个排序的链表](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/mergeSortedLists/MergeSortedLists.java)
 - [27. 二叉树的镜像](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/mirrorOfBinaryTree/MirrorOfBinaryTree.java)
 - [28. 对称的二叉树](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/symmetricalBinaryTree/SymmetricalBinaryTree.java)
