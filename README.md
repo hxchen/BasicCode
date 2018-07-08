@@ -15,3 +15,4 @@
 - [36. 二叉搜索树与双向链表](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/convertBinarySearchTree/ConvertBinarySearchTree.java)
 - [37. 序列化和反序列化二叉树](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/serializeBinaryTrees/SerializeBinaryTrees.java)
 - [38. 字符串的排列](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/stringPermutation/StringPermutation.java)
+- [39. 数组中出现次数超过一半的数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/moreThanHalfNumber/MoreThanHalfNumber.java)
