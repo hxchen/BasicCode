@@ -14,4 +14,4 @@
 - [35. 复杂链表的复制](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/copyComplexList/CopyComplexList.java)
 - [36. 二叉搜索树与双向链表](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/convertBinarySearchTree/ConvertBinarySearchTree.java)
 - [37. 序列化和反序列化二叉树](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/serializeBinaryTrees/SerializeBinaryTrees.java)
-- [37. 字符串的排列](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/stringPermutation/StringPermutation.java)
+- [38. 字符串的排列](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/stringPermutation/StringPermutation.java)
