@@ -17,3 +17,4 @@
 - [38. 字符串的排列](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/stringPermutation/StringPermutation.java)
 - [39. 数组中出现次数超过一半的数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/moreThanHalfNumber/MoreThanHalfNumber.java)
 - [40. 最小的k个数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/kSmallestNumbers/KSmallestNumbers.java)
+- [42. 连续子数组的最大和](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/findMaxSumOfSubArrays/FindMaxSumOfSubArrays.java)
