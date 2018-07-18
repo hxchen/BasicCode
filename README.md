@@ -20,3 +20,4 @@
 - [40. 最小的k个数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/kSmallestNumbers/KSmallestNumbers.java)
 - [41. 数据流中的中位数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/findMedianNumber/FindMedianNumber.java)
 - [42. 连续子数组的最大和](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/findMaxSumOfSubArrays/FindMaxSumOfSubArrays.java)
+- [43. 1到整数N中1出现的次数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/numberOfDigitOne/NumberOfDigitOne.java)
