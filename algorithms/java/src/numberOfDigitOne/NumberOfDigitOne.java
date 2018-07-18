@@ -5,6 +5,7 @@ import org.junit.Test;
 
 /**
  * 1到整数N中1出现的次数(包含N)
+ * 举例一个数字,考虑1出现在各个位的数目
  * Created by hxchen on 2018/7/18.
  */
 public class NumberOfDigitOne {
@@ -18,14 +19,16 @@ public class NumberOfDigitOne {
         int round = n;
 
         while (round > 0){
+            // 将n的十进制的每一位单独拿出讨论，每一位的值记为weight。
             int weight = round % 10;
             round = round/10;
 
-            count += round*base;
+            if (weight == 0)
+                count += round*base;
             if(weight == 1)
-                count += (n % base) + 1;
+                count += round * base + (n % base) + 1;
             else if(weight>1)
-                count += base;
+                count += round * base + base;
 
             base *= 10;
         }
