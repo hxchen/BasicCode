@@ -81,7 +81,7 @@ public class DigitsInSequence {
         while (n > countTotalDigits(numberOfDigits)){
             numberOfDigits++;
         }
-        int left = n - countTotalDigits(numberOfDigits - 1);    //n位数中的第 left位
+        int left = n - countTotalDigits(numberOfDigits - 1) + 1;    //n位数中的第 left位
         int times = left/numberOfDigits;     //n是 从getStart(n)开始的第 times 中的一位
         int position = left%numberOfDigits;        //n是 该数中的第 position 位
         int number = getStart(numberOfDigits) + times - 1;
@@ -100,7 +100,7 @@ public class DigitsInSequence {
 //        System.out.println(getCount(2));
 //        System.out.println(countDigits(2));
 //        System.out.println(countTotalDigits(2));
-        System.out.println(digitsInSequence(19));
+        System.out.println(digitsInSequence(1001));
 //        System.out.println(getDigitByPosition(1234567,6));
     }
 
