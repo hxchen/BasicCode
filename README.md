@@ -21,5 +21,6 @@
 - [41. 数据流中的中位数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/findMedianNumber/FindMedianNumber.java)
 - [42. 连续子数组的最大和](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/findMaxSumOfSubArrays/FindMaxSumOfSubArrays.java)
 - [43. 1到整数N中1出现的次数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/numberOfDigitOne/NumberOfDigitOne.java)
-- [43. 数字序列中某一位的数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/digitsInSequence/DigitsInSequence.java)
-- [43. 把数组排成最小的数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/sortArrayForMinNumber/SortArrayForMinNumber.java)
+- [44. 数字序列中某一位的数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/digitsInSequence/DigitsInSequence.java)
+- [45. 把数组排成最小的数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/sortArrayForMinNumber/SortArrayForMinNumber.java)
+- [46. 把数字翻译成字符串](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/translateNumbersToStrings/TranslateNumbersToStrings.java)
