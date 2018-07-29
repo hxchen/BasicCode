@@ -24,4 +24,5 @@
 - [44. 数字序列中某一位的数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/digitsInSequence/DigitsInSequence.java)
 - [45. 把数组排成最小的数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/sortArrayForMinNumber/SortArrayForMinNumber.java)
 - [46. 把数字翻译成字符串](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/translateNumbersToStrings/TranslateNumbersToStrings.java)
-- [46. 礼物的最大价值](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/maxValueOfGifts/MaxValueOfGifts.java)
+- [47. 礼物的最大价值](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/maxValueOfGifts/MaxValueOfGifts.java)
+- [48. 最长不含重复字符的子字符串](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/longestSubstringWithoutDup/LongestSubstringWithoutDup.java)
