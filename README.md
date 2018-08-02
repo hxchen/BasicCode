@@ -28,3 +28,4 @@
 - [48. 最长不含重复字符的子字符串](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/longestSubstringWithoutDup/LongestSubstringWithoutDup.java)
 - [49. 丑数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/uglyNumber/UglyNumber.java)
 - [50. 字符串中第一个只出现一次的字符](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/firstNotRepeatingChar/FirstNotRepeatingChar.java)
+- [51. 数组中的逆序对](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/inversePairs/InversePairs.java)
