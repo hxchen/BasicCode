@@ -30,4 +30,5 @@
 - [50. 字符串中第一个只出现一次的字符](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/firstNotRepeatingChar/FirstNotRepeatingChar.java)
 - [51. 数组中的逆序对](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/inversePairs/InversePairs.java)
 - [52. 两个链表的第一个公共结点](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/firstCommonNodesInLists/FirstCommonNodesInLists.java)
-- [53. 数字在排序数组中出现的次数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/timesOfK/TimesOfK.java)
+- [53_01. 数字在排序数组中出现的次数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/timesOfK/TimesOfK.java)
+- [53_02. 0到n-1中缺失的数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/timesOfK/MissingNumber.java)
