@@ -32,3 +32,4 @@
 - [52. 两个链表的第一个公共结点](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/firstCommonNodesInLists/FirstCommonNodesInLists.java)
 - [53_01. 数字在排序数组中出现的次数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/timesOfK/TimesOfK.java)
 - [53_02. 0到n-1中缺失的数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/timesOfK/MissingNumber.java)
+- [53_03. 数组中数值和下标相等的元素](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/timesOfK/IntegerEqualToIndex.java)
