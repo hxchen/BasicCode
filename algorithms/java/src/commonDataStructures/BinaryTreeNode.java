@@ -55,4 +55,13 @@ public class BinaryTreeNode {
             return true;
         return isSameTree(tree1.left, tree2.left) && isSameTree(tree1.right, tree2.right);
     }
+
+    @Override
+    public String toString() {
+        return "BinaryTreeNode{" +
+                "value=" + value +
+                ", left=" + (left == null ? null:left.value) +
+                ", right=" + (right == null ? null :right.value) +
+                '}';
+    }
 }
