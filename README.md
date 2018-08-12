@@ -34,4 +34,5 @@
 - [53_02. 0到n-1中缺失的数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/timesOfK/MissingNumber.java)
 - [53_03. 数组中数值和下标相等的元素](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/timesOfK/IntegerEqualToIndex.java)
 - [54. 二叉搜索树的第k大结点](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/kthNodeInBST/KthNodeInBST.java)
-- [55_01. 二叉树的深度](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/treeDepth/TreeDepth.java)
+- [55_01. 二叉树的深度](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/tree/TreeDepth.java)
+- [55_02. 平衡二叉树](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/tree/BalancedBinaryTree.java)
