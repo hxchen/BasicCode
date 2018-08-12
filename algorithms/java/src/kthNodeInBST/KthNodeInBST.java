@@ -141,7 +141,7 @@ public class KthNodeInBST {
         Assert.assertSame(node5, findKthNodeInBST(node8, 1));
         Assert.assertSame(node6, findKthNodeInBST(node8, 2));
         Assert.assertSame(node7, findKthNodeInBST(node8, 3));
-        Assert.assertSame(node8,findKthNodeInBST(node8, 4));
+        Assert.assertSame(node8, findKthNodeInBST(node8, 4));
         Assert.assertSame(node9, findKthNodeInBST(node8, 5));
         Assert.assertSame(node10, findKthNodeInBST(node8, 6));
         Assert.assertSame(node11, findKthNodeInBST(node8, 7));
