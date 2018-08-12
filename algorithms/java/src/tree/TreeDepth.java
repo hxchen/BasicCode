@@ -1,4 +1,4 @@
-package treeDepth;
+package tree;
 
 import commonDataStructures.BinaryTreeNode;
 import org.junit.Assert;
