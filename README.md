@@ -36,3 +36,4 @@
 - [54. 二叉搜索树的第k大结点](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/kthNodeInBST/KthNodeInBST.java)
 - [55_01. 二叉树的深度](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/tree/TreeDepth.java)
 - [55_02. 平衡二叉树](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/tree/BalancedBinaryTree.java)
+- [56_01. 数组中只出现一次的两个数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/numbersAppearOnce/NumbersAppearOnce.java)
