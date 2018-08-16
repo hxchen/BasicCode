@@ -20,8 +20,8 @@ public class NumberAppearOnce {
             bitSum[i] = 0;
 
         for(int i = 0;i < numbers.length; ++i) {
-            int bitMask=1;
-            for(int j = 31; j >=0; --j){
+            int bitMask = 1;
+            for(int j = 31; j >= 0; --j){
                 int bit = numbers[i] & bitMask;
                 if(bit !=0)
                     bitSum[j] += 1;
