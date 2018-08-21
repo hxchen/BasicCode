@@ -38,4 +38,5 @@
 - [55_02. 平衡二叉树](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/tree/BalancedBinaryTree.java)
 - [56_01. 数组中只出现一次的两个数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/numbersAppearOnce/NumbersAppearOnce.java)
 - [56_02. 数组中唯一只出现一次的数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/numberAppearOnce/NumberAppearOnce.java)
-- [57. 和为s的两个数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/twoNumbersWithSum/TwoNumbersWithSum.java)
+- [57_01. 和为s的两个数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/twoNumbersWithSum/TwoNumbersWithSum.java)
+- [57_02. 为s的连续正数序列](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/continuousSequenceWithSum/ContinuousSequenceWithSum.java)
