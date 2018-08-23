@@ -40,3 +40,4 @@
 - [56_02. 数组中唯一只出现一次的数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/numberAppearOnce/NumberAppearOnce.java)
 - [57_01. 和为s的两个数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/twoNumbersWithSum/TwoNumbersWithSum.java)
 - [57_02. 为s的连续正数序列](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/continuousSequenceWithSum/ContinuousSequenceWithSum.java)
+- [58_01. 翻转单词顺序](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/reverseWordsInSentence/ReverseWordsInSentence.java)
