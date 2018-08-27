@@ -42,3 +42,4 @@
 - [57_02. 为s的连续正数序列](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/continuousSequenceWithSum/ContinuousSequenceWithSum.java)
 - [58_01. 翻转单词顺序](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/reverseWordsInSentence/ReverseWordsInSentence.java)
 - [58_02. 左旋转字符串](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/leftRotateString/LeftRotateString.java)
+- [59. 滑动窗口的最大值](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/maxInSlidingWindow/MaxInSlidingWindow.java)
