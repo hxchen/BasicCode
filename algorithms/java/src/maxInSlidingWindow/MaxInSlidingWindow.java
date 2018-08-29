@@ -29,20 +29,22 @@ public class MaxInSlidingWindow {
         // 队列,队列头存最大、队列尾存次大
         Deque<Integer> deque = new LinkedBlockingDeque<>();
         for (int i = 0; i < windowsSize; i++){
-            if (!deque.isEmpty() && numbers[i] >= numbers[deque.peekLast()]){
+            while (!deque.isEmpty() && numbers[i] >= numbers[deque.peekLast()]){
                 deque.pollLast(); //队列尾部删除
             }
-            deque.addFirst(i); // 存入队列头
+            deque.addLast(i); // 存入队列尾部
         }
         for (int i = windowsSize; i < numbers.length; i++){
+
             arrayList.add(numbers[deque.peekFirst()]);
+
             while (!deque.isEmpty() && numbers[i] >= numbers[deque.peekLast()])
                 deque.pollLast(); // 尾部删除
 
             if (!deque.isEmpty() && deque.peekFirst() <= (i - windowsSize))
                 deque.pop(); // 头部删除
 
-            deque.addFirst(i);
+            deque.addLast(i);
 
         }
         arrayList.add(numbers[deque.peekFirst()]);
