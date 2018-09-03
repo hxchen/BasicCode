@@ -43,4 +43,4 @@
 - [58_01. 翻转单词顺序](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/reverseWordsInSentence/ReverseWordsInSentence.java)
 - [58_02. 左旋转字符串](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/leftRotateString/LeftRotateString.java)
 - [59. 滑动窗口的最大值](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/maxInSlidingWindow/MaxInSlidingWindow.java)
-- [59. n个骰子的点数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/dicesProbability/DicesProbability.java)
+- [60. n个骰子的点数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/dicesProbability/DicesProbability.java)
