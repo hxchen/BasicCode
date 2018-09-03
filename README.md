@@ -44,3 +44,4 @@
 - [58_02. 左旋转字符串](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/leftRotateString/LeftRotateString.java)
 - [59. 滑动窗口的最大值](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/maxInSlidingWindow/MaxInSlidingWindow.java)
 - [60. n个骰子的点数](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/dicesProbability/DicesProbability.java)
+- [61. 扑克牌的顺子](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/continousCards/ContinousCards.java)
