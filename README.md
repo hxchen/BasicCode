@@ -47,3 +47,4 @@
 - [61. 扑克牌的顺子](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/continousCards/ContinousCards.java)
 - [62. *圆圈中最后剩下的数字](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/lastNumberInCircle/LastNumberInCircle.java)
 - [63. 股票的最大利润](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/maximalProfit/MaximalProfit.java)
+- [64. 求连续自然数的和](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/accumulate/Acccumulate.java)
