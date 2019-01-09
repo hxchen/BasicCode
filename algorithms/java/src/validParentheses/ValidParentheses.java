@@ -1,4 +1,4 @@
-package validBrackets;
+package validParentheses;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -13,7 +13,7 @@ import java.util.Stack;
  * 注意空字符串可被认为是有效字符串。
  * Created by hxchen on 2019/1/9.
  */
-public class ValidBrackets {
+public class ValidParentheses {
 
     public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
