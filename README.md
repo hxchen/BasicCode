@@ -50,3 +50,4 @@
 - [64. 求连续自然数的和](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/accumulate/Acccumulate.java)
 - [65. 不用加减乘除做加法](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/addTwoNumbers/AddTwoNumbers.java)
 - [66. 构建乘积数组](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/constuctArray/ConstuctArray.java)
+- [67. 有效的括号](https://github.com/hxchen/BasicCode/blob/master/algorithms/java/src/validBrackets/ValidBrackets.java)
