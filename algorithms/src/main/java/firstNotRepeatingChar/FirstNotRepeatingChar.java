@@ -12,21 +12,16 @@ import org.junit.Test;
 public class FirstNotRepeatingChar {
 
     public char FirstNotRepeatingCHar(String string) {
-        if (null == string)
-            return '\0';
-        int[] array = new int[26];
-        for (int i = 0; i < array.length; i++) {
-            array[i] = 0;
+        int[] count = new int[256];
+        char[] chars = string.toCharArray();
+        for(char c : chars){
+            count[c]++;
         }
-        for (int i = 0; i < string.length(); i++) {
-            char letter = string.charAt(i);
-            int index = letter - 'a';
-            array[index] = array[index] + 1;
-        }
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == 1) {
-                return (char) (i + 'a');
+        for(char c : chars){
+            if(count[c] == 1){
+                return c;
             }
+
         }
         return '\0';
     }
@@ -53,5 +48,10 @@ public class FirstNotRepeatingChar {
     public void Test4() {
         String string = "abcdefg";
         Assert.assertSame('a', FirstNotRepeatingCHar(string));
+    }
+    @Test
+    public void Test5() {
+        String string = "dcba";
+        Assert.assertSame('d', FirstNotRepeatingCHar(string));
     }
 }
