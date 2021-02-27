@@ -73,7 +73,7 @@ public class KSmallestNumbers {
     public static int[] kSmallestNumbers(int[] arr, int k) {
         if (arr == null || k < 0 || k > arr.length)
             return new int[0];
-        //根据输入数组前k个数简历最大堆
+        //根据输入数组前k个数建立最大堆
         //从k+1个数开始与根节点比较
         //大于根节点，舍去
         //小于，取代根节点，重建最大堆
