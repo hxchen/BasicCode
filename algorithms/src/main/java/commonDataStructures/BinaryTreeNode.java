@@ -1,5 +1,7 @@
 package commonDataStructures;
 
+import java.util.LinkedList;
+
 /**
  * Created by hxchen on 2018/6/21.
  */
@@ -59,6 +61,24 @@ public class BinaryTreeNode {
         return isSameTree(tree1.left, tree2.left) && isSameTree(tree1.right, tree2.right);
     }
 
+    /**
+     * 前序遍历
+     * @param root
+     */
+    public void preOrder(BinaryTreeNode root) {
+        LinkedList<BinaryTreeNode> stack = new LinkedList<>();
+        BinaryTreeNode pNode = root;
+        while (pNode != null || !stack.isEmpty()){
+            if (pNode != null){
+                System.out.print(pNode.value+"\t");
+                stack.push(pNode);
+                pNode = pNode.left;
+            }else {
+                BinaryTreeNode node = stack.pop();
+                pNode = node.right;
+            }
+        }
+    }
     @Override
     public String toString() {
         return "BinaryTreeNode{" +
