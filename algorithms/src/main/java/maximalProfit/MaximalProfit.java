@@ -17,7 +17,7 @@ public class MaximalProfit {
         if (numbers == null || numbers.length < 2)
             return 0;
         int min = numbers[0];
-        int maxDiff = numbers[1] - min;
+        int maxDiff = (numbers[1] - min) < 0 ? 0 : (numbers[1] - min);
         for (int i = 2; i < numbers.length; i++) {
             if (numbers[i - 1] < min)
                 min = numbers[i - 1];
