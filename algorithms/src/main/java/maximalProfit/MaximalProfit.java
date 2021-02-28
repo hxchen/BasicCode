@@ -9,6 +9,7 @@ import org.junit.Test;
  * 票可能获得的利润是多少？例如一只股票在某些时间节点的价格为{9, 11, 8, 5,
  * 7, 12, 16, 14}。如果我们能在价格为5的时候买入并在价格为16时卖出，则能
  * 收获最大的利润11。
+ * 允许不交易，最大利润为0
  * Created by hxchen on 2018/9/9.
  */
 public class MaximalProfit {
@@ -44,7 +45,7 @@ public class MaximalProfit {
     @Test
     public void Test3() {
         int numbers[] = {16, 11, 7, 4, 2, 1};
-        Assert.assertTrue(maxProfit(numbers) == -1);
+        Assert.assertTrue(maxProfit(numbers) == 0);
     }
 
     @Test
@@ -68,12 +69,18 @@ public class MaximalProfit {
     @Test
     public void Test7() {
         int numbers[] = {4, 2};
-        Assert.assertTrue(maxProfit(numbers) == -2);
+        Assert.assertTrue(maxProfit(numbers) == 0);
     }
 
     @Test
     public void Test8() {
         Assert.assertTrue(maxProfit(null) == 0);
+    }
+
+    @Test
+    public void Test9() {
+        int numbers[] = {7, 6, 4, 3, 1};
+        Assert.assertTrue(maxProfit(numbers) == 0);
     }
 
 
