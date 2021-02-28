@@ -31,7 +31,7 @@ public class MaxValueOfGifts {
                 if (j > 0)
                     up = maxValues[i][j - 1] + array[i][j];
 
-                maxValues[i][j] = maxValue(left, up);
+                maxValues[i][j] = left > up ? left : up;
 
                 if (i == 0 && j == 0)
                     maxValues[0][0] = array[0][0];
@@ -39,17 +39,6 @@ public class MaxValueOfGifts {
             }
         }
         return maxValues[rows - 1][cols - 1];
-    }
-
-    /**
-     * 获取x y中的大值
-     *
-     * @param x
-     * @param y
-     * @return
-     */
-    private static int maxValue(int x, int y) {
-        return x > y ? x : y;
     }
 
     @Test
