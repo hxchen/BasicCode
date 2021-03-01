@@ -18,7 +18,7 @@ public class ReverseWordsInSentence {
         if (sentence == null || sentence.length() == 0)
             return sentence;
         Stack<String> stack = new Stack<>();
-        String[] array = sentence.split("\t");
+        String[] array = sentence.split(" ");
         for (String words : array) {
             stack.push(words);
         }
@@ -26,7 +26,7 @@ public class ReverseWordsInSentence {
         while (!stack.empty()) {
             stringBuffer.append(stack.pop());
             if (stack.size() > 0)
-                stringBuffer.append("\t");
+                stringBuffer.append(" ");
         }
         return stringBuffer.toString();
     }
@@ -64,6 +64,12 @@ public class ReverseWordsInSentence {
     public void Test5() {
         String input = "   ";
         String expected = "   ";
+        Assert.assertEquals(expected, reverseWordsInSentence(input));
+    }
+    @Test
+    public void Test6() {
+        String input = "a good example";
+        String expected = "example good a";
         Assert.assertEquals(expected, reverseWordsInSentence(input));
     }
 }
