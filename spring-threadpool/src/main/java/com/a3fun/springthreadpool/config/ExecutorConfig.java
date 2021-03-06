@@ -30,7 +30,7 @@ public class ExecutorConfig {
         //配置队列大小
         executor.setQueueCapacity(99999);
         //配置线程池中的线程的名称前缀
-        executor.setThreadNamePrefix("async-service-");
+        executor.setThreadNamePrefix("async-com.a3fun.rocket.service-");
 
         executor.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
         //执行初始化
