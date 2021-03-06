@@ -21,8 +21,9 @@ public class DicesProbability {
      */
     public static void printProbability_1(int number) {
         long start = System.currentTimeMillis();
-        if (number < 1)
+        if (number < 1) {
             return;
+        }
         int maxSum = number * g_maxValue;
         // probabilities 数组用来存储每个sum出现的次数，范围是从number到maxSum
         int[] probabilities = new int[maxSum - number + 1];
@@ -47,8 +48,9 @@ public class DicesProbability {
     }
 
     private static void probability(int number, int[] probabilities) {
-        for (int i = 1; i <= g_maxValue; i++)
+        for (int i = 1; i <= g_maxValue; i++) {
             probability(number, number - 1, i, probabilities);
+        }
 
     }
 
@@ -69,8 +71,9 @@ public class DicesProbability {
      */
     public static void printProbability_2(int number) {
         long start = System.currentTimeMillis();
-        if (number < 1)
+        if (number < 1) {
             return;
+        }
         int maxSum = number * g_maxValue;
         int[][] probabilities = new int[2][maxSum + 1];
         // 通过falg来循环利用数组

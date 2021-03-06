@@ -26,8 +26,9 @@ public class FindMaxSumOfSubArrays {
             } else {
                 currentSum += arr[i];
             }
-            if (currentSum > maxSum)
+            if (currentSum > maxSum) {
                 maxSum = currentSum;
+            }
         }
         return maxSum;
     }

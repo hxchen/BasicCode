@@ -15,10 +15,12 @@ public class TranslateNumbersToStrings {
 
 
     public static int getTranslationCount(int number) {
-        if (number < 0)
+        if (number < 0) {
             return 0;
-        if (number == 1)
+        }
+        if (number == 1) {
             return 1;
+        }
         return getTranslationCount(Integer.toString(number));
     }
     //    自下而上，动态规划，从最小的问题开始 ：
@@ -38,10 +40,11 @@ public class TranslateNumbersToStrings {
         int temp;
         for (int i = number.length() - 2; i >= 0; i--) {
             int value = Integer.parseInt(number.charAt(i) + "" + number.charAt(i + 1));
-            if (value >= 10 && value < 26)
+            if (value >= 10 && value < 26) {
                 g = 1;
-            else
+            } else {
                 g = 0;
+            }
 
             temp = f2;
             f2 = f2 + g * f1;

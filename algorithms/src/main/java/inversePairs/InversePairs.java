@@ -12,8 +12,9 @@ import org.junit.Test;
 public class InversePairs {
 
     public static int InversePairs(int[] array) {
-        if (array == null || array.length == 0)
+        if (array == null || array.length == 0) {
             return 0;
+        }
         int[] copy = new int[array.length];
         for (int i = 0; i < array.length; ++i) {
             copy[i] = array[i];

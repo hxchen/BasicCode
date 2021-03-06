@@ -25,8 +25,9 @@ public class MaxInSlidingWindow {
      */
     public ArrayList<Integer> maxInWindows(int[] numbers, int windowsSize) {
         ArrayList<Integer> arrayList = new ArrayList<>();
-        if (numbers == null || numbers.length == 0 || windowsSize <= 0 || windowsSize > numbers.length)
+        if (numbers == null || numbers.length == 0 || windowsSize <= 0 || windowsSize > numbers.length) {
             return arrayList;
+        }
         // 队列,队列头存最大、队列尾存次大
         Deque<Integer> deque = new LinkedBlockingDeque<>();
         for (int i = 0; i < windowsSize; i++) {
@@ -39,8 +40,9 @@ public class MaxInSlidingWindow {
 
             arrayList.add(numbers[deque.peekFirst()]);
 
-            while (!deque.isEmpty() && numbers[i] >= numbers[deque.peekLast()])
+            while (!deque.isEmpty() && numbers[i] >= numbers[deque.peekLast()]) {
                 deque.pollLast(); // 尾部删除
+            }
 
             if (!deque.isEmpty() && deque.peekFirst() <= (i - windowsSize))
                 deque.pop(); // 头部删除
