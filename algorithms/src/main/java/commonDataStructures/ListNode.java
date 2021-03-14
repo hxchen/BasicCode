@@ -1,6 +1,8 @@
 package commonDataStructures;
 
 
+import java.util.List;
+
 /**
  * Created by hxchen on 2018/6/12.
  */
@@ -39,7 +41,7 @@ public class ListNode {
     }
 
     /**
-     * 逆序链表
+     * 迭代方式逆序链表
      * @param head
      */
     public static ListNode reverse(ListNode head){
