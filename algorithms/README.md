@@ -1,4 +1,5 @@
 # BasicCode
+1. 链表问题常见操作关键字：长度、逆序、快慢指针或双指针、先走N步。例如：环形链表、相交链表等问题。
 
 - [23. 链表中环的入口结点](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findEntryNodeInListLoop/FindEntryNodeInListLoop.java)
 - [24. 反转链表](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/reverseList/ReverseList.java)
