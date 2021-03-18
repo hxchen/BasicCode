@@ -22,9 +22,10 @@ public class UserController {
      * @return
      */
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public String hello(){
-        logger.info("async invoke from main");
+    public String hello() throws InterruptedException {
+        logger.info("主线程里异步调用");
         asyncService.asyncInvoke();
+        logger.info("主线程里异步调用后");
         return "hello";
     }
 
@@ -33,9 +34,10 @@ public class UserController {
      * @return
      */
     @RequestMapping(value = "/hello2", method = RequestMethod.GET)
-    public String hello2(){
-        logger.info("exe in main");
+    public String hello2() throws InterruptedException {
+        logger.info("主线程里同步调用");
         asyncService.syncInvoke();
+        logger.info("主线程里同步调用后");
         return "hello";
     }
 }
