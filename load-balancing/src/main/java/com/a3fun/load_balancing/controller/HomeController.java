@@ -15,7 +15,7 @@ public class HomeController {
     String port;
 
     @RequestMapping(value = "/")
-    public String home(){
-        return "hello, my port is :"+ port;
+    public String home() {
+        return "hello, my port is :" + port;
     }
 }

@@ -63,22 +63,24 @@ public class BinaryTreeNode {
 
     /**
      * 前序遍历
+     *
      * @param root
      */
     public void preOrder(BinaryTreeNode root) {
         LinkedList<BinaryTreeNode> stack = new LinkedList<>();
         BinaryTreeNode pNode = root;
-        while (pNode != null || !stack.isEmpty()){
-            if (pNode != null){
-                System.out.print(pNode.value+"\t");
+        while (pNode != null || !stack.isEmpty()) {
+            if (pNode != null) {
+                System.out.print(pNode.value + "\t");
                 stack.push(pNode);
                 pNode = pNode.left;
-            }else {
+            } else {
                 BinaryTreeNode node = stack.pop();
                 pNode = node.right;
             }
         }
     }
+
     @Override
     public String toString() {
         return "BinaryTreeNode{" +

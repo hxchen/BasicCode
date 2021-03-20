@@ -7,7 +7,7 @@ import org.junit.Test;
  */
 public class ListNodeTest {
     @Test
-    public void testReverse(){
+    public void testReverse() {
         ListNode node1 = new ListNode(1);
         ListNode node2 = new ListNode(2);
         ListNode node3 = new ListNode(3);

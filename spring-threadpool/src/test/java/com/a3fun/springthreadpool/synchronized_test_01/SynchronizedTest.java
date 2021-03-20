@@ -17,8 +17,8 @@ public class SynchronizedTest {
 
     public static SynchronizedTest staticIn = new SynchronizedTest();   //静态对象
 
-    public synchronized void method1(){                                     //非静态方法1
-        for(int i = 0;i < 10;i++){
+    public synchronized void method1() {                                     //非静态方法1
+        for (int i = 0; i < 10; i++) {
             System.out.println("method1 is running!");
             try {
                 Thread.sleep(1000);
@@ -28,8 +28,9 @@ public class SynchronizedTest {
             }
         }
     }
-    public synchronized void method2(){                                   //非静态方法2
-        for( int i = 0; i < 10 ; i++){
+
+    public synchronized void method2() {                                   //非静态方法2
+        for (int i = 0; i < 10; i++) {
             System.out.println("method2 is running!");
             try {
                 Thread.sleep(1000);
@@ -39,8 +40,9 @@ public class SynchronizedTest {
             }
         }
     }
-    public synchronized static void staticMethod1(){                     //静态方法1
-        for( int i = 0; i < 10 ; i++){
+
+    public synchronized static void staticMethod1() {                     //静态方法1
+        for (int i = 0; i < 10; i++) {
             System.out.println("static method1 is running!");
             try {
                 Thread.sleep(1000);
@@ -50,8 +52,9 @@ public class SynchronizedTest {
             }
         }
     }
-    public synchronized static void staticMethod2(){                      //静态方法2
-        for( int i = 0; i < 10 ; i++){
+
+    public synchronized static void staticMethod2() {                      //静态方法2
+        for (int i = 0; i < 10; i++) {
             System.out.println("static method2 is running!");
             try {
                 Thread.sleep(1000);

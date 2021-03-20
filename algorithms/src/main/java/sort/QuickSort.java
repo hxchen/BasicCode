@@ -20,7 +20,7 @@ public class QuickSort {
         }
         System.out.printf("head = %d, tail = %d.\t", head, tail);
         int i = head, j = tail, pivot = arr[(head + tail) / 2];
-        System.out.printf("pivot_index = %d,pivot = %d.\t",(head + tail) / 2, pivot);
+        System.out.printf("pivot_index = %d,pivot = %d.\t", (head + tail) / 2, pivot);
         printArray(arr);
         while (i <= j) {
             while (arr[i] < pivot) {
@@ -43,26 +43,27 @@ public class QuickSort {
 
     /**
      * 基准为第一个的快速排序
+     *
      * @param arr
      * @param start
      * @param end
      */
-    public static void quickSort(int[] arr, int start, int end){
-        if(start >= end || arr == null || arr.length <= 1){
+    public static void quickSort(int[] arr, int start, int end) {
+        if (start >= end || arr == null || arr.length <= 1) {
             return;
         }
         // 基准为第一个
         int i = start, j = end, pivot = arr[start];
-        while (i < j){
+        while (i < j) {
             // 右边选择第一个比基准小的
-            while (i < j && arr[j] >= pivot){
+            while (i < j && arr[j] >= pivot) {
                 j--;
             }
             // 左边选择第一个比基准大的
-            while (i < j && arr[i] <= pivot){
+            while (i < j && arr[i] <= pivot) {
                 i++;
             }
-            if (i < j){
+            if (i < j) {
                 swap(arr, i, j);
             }
         }
@@ -71,6 +72,7 @@ public class QuickSort {
         quickSort(arr, i + 1, end);
 
     }
+
     public static void main(String[] args) {
         int[] arr = new int[]{3, 7, 8, 5, 2, 1, 9, 5, 4};
 //        qSort(arr, 0, arr.length - 1);

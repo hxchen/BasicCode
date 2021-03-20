@@ -66,6 +66,7 @@ public class ReverseWordsInSentence {
         String expected = "   ";
         Assert.assertEquals(expected, reverseWordsInSentence(input));
     }
+
     @Test
     public void Test6() {
         String input = "a good example";

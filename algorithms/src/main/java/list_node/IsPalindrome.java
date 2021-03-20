@@ -3,18 +3,18 @@ package list_node;
 import commonDataStructures.ListNode;
 
 /**
- *
  * @author haixiangchen
  */
 class IsPalindrome {
     /**
      * 整个流程可以分为以下五个步骤：
-     *
+     * <p>
      * 找到前半部分链表的尾节点。
      * 反转后半部分链表。
      * 判断是否回文。
      * 恢复链表。
      * 返回结果。
+     *
      * @param head
      * @return
      */

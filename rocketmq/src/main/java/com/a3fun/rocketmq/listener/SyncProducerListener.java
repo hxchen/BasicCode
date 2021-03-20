@@ -5,6 +5,7 @@ import org.apache.rocketmq.spring.core.RocketMQLocalTransactionListener;
 import org.apache.rocketmq.spring.core.RocketMQLocalTransactionState;
 import org.springframework.messaging.Message;
 import org.springframework.stereotype.Component;
+
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -20,7 +21,7 @@ public class SyncProducerListener implements RocketMQLocalTransactionListener {
     public RocketMQLocalTransactionState executeLocalTransaction(Message message, Object o) {
         try {
             System.out.printf("执行本地事务 msg:%s, Object:%s", message, o);
-            localTrans.put(message.getHeaders().getId()+"", message.getPayload());
+            localTrans.put(message.getHeaders().getId() + "", message.getPayload());
             return RocketMQLocalTransactionState.COMMIT;
         } catch (Exception e) {
             e.printStackTrace();
@@ -28,6 +29,7 @@ public class SyncProducerListener implements RocketMQLocalTransactionListener {
             return RocketMQLocalTransactionState.ROLLBACK;
         }
     }
+
     @Override
     public RocketMQLocalTransactionState checkLocalTransaction(Message message) {
         System.out.printf("【执行检查任务】");

@@ -1,4 +1,5 @@
 package com.a3fun.rocketmq.controller;
+
 import org.apache.rocketmq.client.producer.SendCallback;
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
@@ -22,12 +23,13 @@ public class ProducerController {
 
     /**
      * 同步发送测试
+     *
      * @param msg
      * @return
      */
     @GetMapping("/send")
     public String send(String msg) {
-        rocketMQTemplate.convertAndSend(TOPIC,msg);
+        rocketMQTemplate.convertAndSend(TOPIC, msg);
         System.out.printf("send %s to test-topic", msg);
 
         SendResult sendResult = rocketMQTemplate.syncSend("test-topic", msg);
@@ -37,6 +39,7 @@ public class ProducerController {
 
     /**
      * 异步发送测试
+     *
      * @param msg
      * @return
      */
@@ -57,6 +60,7 @@ public class ProducerController {
         System.out.println("async send success");
         return "success";
     }
+
     @GetMapping("/send_transactional")
     public void transactionalRocketMQTemplate() {
         String[] tags = new String[]{"TagA", "TagB", "TagC", "TagD", "TagE"};

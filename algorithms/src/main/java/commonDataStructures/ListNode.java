@@ -14,7 +14,8 @@ public class ListNode {
     public ListNode(int value) {
         this.value = value;
     }
-    public ListNode(int value, ListNode next){
+
+    public ListNode(int value, ListNode next) {
         this.value = value;
         this.next = next;
     }
@@ -42,9 +43,10 @@ public class ListNode {
 
     /**
      * 迭代方式逆序链表
+     *
      * @param head
      */
-    public static ListNode reverse(ListNode head){
+    public static ListNode reverse(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
         while (curr != null) {
@@ -53,7 +55,7 @@ public class ListNode {
             prev = curr;
             curr = next;
         }
-        return  prev;
+        return prev;
     }
 
 }

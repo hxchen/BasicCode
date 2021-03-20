@@ -4,21 +4,23 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.util.concurrent.ListenableFuture;
+
 import java.util.concurrent.Callable;
 import java.util.concurrent.Future;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * 线程池监控
+ *
  * @author haixiangchen
  */
 public class VisibleThreadPoolTaskExecutor extends ThreadPoolTaskExecutor {
     private static final Logger logger = LoggerFactory.getLogger(VisibleThreadPoolTaskExecutor.class);
 
-    private void showThreadPoolInfo(String prefix){
+    private void showThreadPoolInfo(String prefix) {
         ThreadPoolExecutor threadPoolExecutor = getThreadPoolExecutor();
 
-        if(null==threadPoolExecutor){
+        if (null == threadPoolExecutor) {
             return;
         }
 

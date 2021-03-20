@@ -7,7 +7,6 @@ import java.util.concurrent.LinkedBlockingQueue;
  * 用阻塞队列实现线程同步 LinkedBlockingQueue的使用
  *
  * @author XIEHEJUN
- *
  */
 public class BlockingSynchronizedThread {
     /**

@@ -14,11 +14,11 @@ public class FirstNotRepeatingChar {
     public char FirstNotRepeatingCHar(String string) {
         int[] count = new int[256];
         char[] chars = string.toCharArray();
-        for(char c : chars){
+        for (char c : chars) {
             count[c]++;
         }
-        for(char c : chars){
-            if(count[c] == 1){
+        for (char c : chars) {
+            if (count[c] == 1) {
                 return c;
             }
 
@@ -49,6 +49,7 @@ public class FirstNotRepeatingChar {
         String string = "abcdefg";
         Assert.assertSame('a', FirstNotRepeatingCHar(string));
     }
+
     @Test
     public void Test5() {
         String string = "dcba";

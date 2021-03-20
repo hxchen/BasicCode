@@ -17,8 +17,10 @@ public class UserController {
     Logger logger = LoggerFactory.getLogger(AsyncService.class);
     @Resource
     AsyncService asyncService;
+
     /**
      * 测试
+     *
      * @return
      */
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
@@ -31,6 +33,7 @@ public class UserController {
 
     /**
      * 测试2
+     *
      * @return
      */
     @RequestMapping(value = "/hello2", method = RequestMethod.GET)

@@ -10,12 +10,13 @@ import java.util.List;
 public class Solution {
     /**
      * 锯齿形遍历
+     *
      * @param root
      * @return
      */
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
-        if(root==null){
+        if (root == null) {
             return res;
         }
         // tmp表示当前层的节点val
@@ -29,16 +30,16 @@ public class Solution {
         //加入root
         queue.add(root);
         TreeNode cur;
-        while(!queue.isEmpty()){
-            if(!flag){
+        while (!queue.isEmpty()) {
+            if (!flag) {
                 //奇数层:弹出队首元素; 左孩子先加入队尾,右孩子后加入队尾
                 cur = queue.pollFirst();
                 tmp.add(cur.val);
-                if(cur.left != null){
+                if (cur.left != null) {
                     queue.addLast(cur.left);
                     num++;
                 }
-                if(cur.right != null){
+                if (cur.right != null) {
                     queue.addLast(cur.right);
                     num++;
                 }
@@ -46,17 +47,17 @@ public class Solution {
                 //偶数层:弹出队尾元素; 右孩子先加入队首,左孩子后加入队首
                 cur = queue.pollLast();
                 tmp.add(cur.val);
-                if(cur.right != null){
+                if (cur.right != null) {
                     queue.addFirst(cur.right);
                     num++;
                 }
-                if(cur.left != null){
+                if (cur.left != null) {
                     queue.addFirst(cur.left);
                     num++;
                 }
             }
             count--;
-            if(count == 0){
+            if (count == 0) {
                 count = num;
                 num = 0;
                 flag = !flag;

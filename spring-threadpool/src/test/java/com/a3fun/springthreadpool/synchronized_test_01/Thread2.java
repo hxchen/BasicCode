@@ -1,12 +1,12 @@
 package com.a3fun.springthreadpool.synchronized_test_01;
 
-public class Thread2 implements Runnable{
+public class Thread2 implements Runnable {
     @Override
     public void run() {
         // TODO Auto-generated method stub
 //		SynchronizedTest s = SynchronizedTest.getInstance();
-		SynchronizedTest s2 = new SynchronizedTest();
-		s2.method1();
+        SynchronizedTest s2 = new SynchronizedTest();
+        s2.method1();
 //		s.method2();
 //		SynchronizedTest.staticMethod1();
 //		SynchronizedTest.staticMethod2();

@@ -7,9 +7,9 @@ public class Test {
     synchronized public void mB(String value) {
         for (int i = 0; i < 10; i++) {
             System.out.println(value);
-            try{
+            try {
                 Thread.sleep(150);
-            }catch(Exception e){
+            } catch (Exception e) {
 
             }
         }
@@ -18,9 +18,9 @@ public class Test {
     synchronized public void mC(String value) {
         for (int i = 0; i < 10; i++) {
             System.out.println(value);
-            try{
+            try {
                 Thread.sleep(150);
-            }catch(Exception e){
+            } catch (Exception e) {
 
             }
         }
