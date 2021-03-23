@@ -47,4 +47,16 @@ public class HomeController {
         return JSONObject.toJSONString(person);
     }
 
+    @RequestMapping(path = "person")
+    public String person(){
+        Person person = personService.searchById("1");
+        person.setName("Test");
+        try {
+            person = personService.updatePersonTransactional(person);
+        }catch (Exception e){
+            System.err.printf(e.getMessage());
+        }
+        return JSONObject.toJSONString(person);
+    }
+
 }

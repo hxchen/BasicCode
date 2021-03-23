@@ -33,4 +33,13 @@ public class PersonService {
         personMapper.updatePerson(person);
         throw new Exception("update error");
     }
+
+    public Person updatePersonTransactional(Person person){
+        try{
+            updatePersonInTransactional(person);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return person;
+    }
 }
