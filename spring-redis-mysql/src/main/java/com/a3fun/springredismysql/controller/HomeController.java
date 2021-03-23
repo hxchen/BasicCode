@@ -2,6 +2,7 @@ package com.a3fun.springredismysql.controller;
 
 import com.a3fun.springredismysql.entity.Person;
 import com.a3fun.springredismysql.service.PersonService;
+import com.a3fun.springredismysql.service.TeacherService;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +19,8 @@ import javax.annotation.Resource;
 public class HomeController {
     @Resource
     PersonService personService;
+    @Resource
+    TeacherService teacherService;
 
     @RequestMapping(path = "search")
     public String search(@RequestParam("id") String id){
@@ -30,6 +33,17 @@ public class HomeController {
         Person person = personService.searchById(id);
         person.setName(name);
         personService.updatePerson(person);
+        return JSONObject.toJSONString(person);
+    }
+
+    @RequestMapping(path = "teacher")
+    public String teacher(){
+        Person person = null;
+        try {
+            person = teacherService.updatePerson();
+        }catch (Exception e){
+            System.err.printf(e.getMessage());
+        }
         return JSONObject.toJSONString(person);
     }
 

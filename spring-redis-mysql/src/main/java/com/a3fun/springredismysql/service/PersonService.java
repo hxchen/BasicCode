@@ -6,6 +6,7 @@ import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 
@@ -25,5 +26,11 @@ public class PersonService {
     public Person updatePerson(Person person){
         personMapper.updatePerson(person);
         return person;
+    }
+
+    @Transactional(rollbackFor=Exception.class)
+    public Person updatePersonInTransactional(Person person) throws Exception {
+        personMapper.updatePerson(person);
+        throw new Exception("update error");
     }
 }
