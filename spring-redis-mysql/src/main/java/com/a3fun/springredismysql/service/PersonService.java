@@ -2,13 +2,12 @@ package com.a3fun.springredismysql.service;
 
 import com.a3fun.springredismysql.entity.Person;
 import com.a3fun.springredismysql.mapper.PersonMapper;
-import org.springframework.cache.annotation.CacheConfig;
-import org.springframework.cache.annotation.CachePut;
-import org.springframework.cache.annotation.Cacheable;
+import org.springframework.cache.annotation.*;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service
 @CacheConfig(cacheNames = "users")
@@ -17,12 +16,23 @@ public class PersonService {
     @Resource
     PersonMapper personMapper;
 
-    @Cacheable(key = "#id")
+    @Cacheable( key = "'id='+#id")
     public Person searchById(String id){
         return personMapper.searchById(id);
     }
+    @Cacheable(key = "'name='+#name")
+    public List<Person> searchByName(String name) {
+        return personMapper.searchByName(name);
+    }
 
-    @CachePut(key = "#person.id")
+    /**
+     * 更新
+     * @param person
+     * @return
+     */
+    @Caching(evict = {
+            @CacheEvict(key = "'name='+#result.name", allEntries = true)
+    })
     public Person updatePerson(Person person){
         personMapper.updatePerson(person);
         return person;

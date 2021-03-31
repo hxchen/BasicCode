@@ -3,6 +3,7 @@ package com.a3fun.springredismysql.controller;
 import com.a3fun.springredismysql.entity.Person;
 import com.a3fun.springredismysql.service.PersonService;
 import com.a3fun.springredismysql.service.TeacherService;
+import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @author haixiangchen
@@ -26,6 +28,17 @@ public class HomeController {
     public String search(@RequestParam("id") String id){
         Person person = personService.searchById(id);
         return JSONObject.toJSONString(person);
+    }
+
+    /**
+     * 通过名称搜索
+     * @param name
+     * @return
+     */
+    @RequestMapping(path = "search_name")
+    public String searchByName(@RequestParam("name") String name){
+        List<Person> person = personService.searchByName(name);
+        return JSONArray.toJSONString(person);
     }
 
     @RequestMapping(path = "update")
