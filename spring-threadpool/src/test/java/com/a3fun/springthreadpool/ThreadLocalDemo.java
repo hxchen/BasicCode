@@ -31,7 +31,7 @@ public class ThreadLocalDemo {
             }, "thread - " + i).start();
         }
         countDownLatch.await();
-
+        System.out.println("所有线程已到达,主线程开始执行" + System.currentTimeMillis());
     }
 
     private static class InnerClass {
