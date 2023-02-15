@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-redis-mysql</module>
+        <module>task_aceplaying</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

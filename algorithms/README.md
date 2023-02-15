@@ -52,3 +52,4 @@
 - [65. 不用加减乘除做加法](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/addTwoNumbers/AddTwoNumbers.java)
 - [66. 构建乘积数组](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/constuctArray/ConstuctArray.java)
 - [67. 有效的括号](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/validParentheses/ValidParentheses.java)
+- [68. 在排序数组中查找元素的第一个和最后一个位置](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findFitstAndLastPosInNonDecArray/Solution.java)
