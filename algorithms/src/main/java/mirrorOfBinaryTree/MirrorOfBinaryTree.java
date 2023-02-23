@@ -1,6 +1,5 @@
 package mirrorOfBinaryTree;
 
-import com.sun.source.tree.BinaryTree;
 import commonDataStructures.BinaryTreeNode;
 import org.junit.Test;
 
