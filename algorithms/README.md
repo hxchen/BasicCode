@@ -52,6 +52,9 @@
 - [65. 不用加减乘除做加法](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/addTwoNumbers/AddTwoNumbers.java)
 - [66. 构建乘积数组](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/constuctArray/ConstuctArray.java)
 - [67. 有效的括号](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/validParentheses/ValidParentheses.java)
+# 二分查找
 - [68. 在排序数组中查找元素的第一个和最后一个位置](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findFitstAndLastPosInNonDecArray/Solution.java)
 - [69. 搜索旋转排序数组(33)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/searchedRotatedSortedArray/Solution.java)
 - [70. 搜索二维矩阵(74)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/searchA2dMatrix/Solution.java)
+- [71. 寻找旋转排序数组中的最小值(153)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findMinimumInrotaedSortedArray/Solution.java)
+- [72. 寻找旋转排序数组中的最小值(162)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findPeakElement/Solution.java)
