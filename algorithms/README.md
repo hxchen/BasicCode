@@ -58,3 +58,6 @@
 - [70. 搜索二维矩阵(74)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/searchA2dMatrix/Solution.java)
 - [71. 寻找旋转排序数组中的最小值(153)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findMinimumInrotaedSortedArray/Solution.java)
 - [72. 寻找旋转排序数组中的最小值(162)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findPeakElement/Solution.java)
+# 双指针
+- [73. 删除排序链表中的重复元素 II(82)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/removeDuplicatesFromSortedList/Solution.java)
+- [74. 三数之和(15)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/threeSum/Solution.java)
