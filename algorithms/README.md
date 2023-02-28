@@ -61,3 +61,5 @@
 # 双指针
 - [73. 删除排序链表中的重复元素 II(82)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/removeDuplicatesFromSortedList/Solution.java)
 - [74. 三数之和(15)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/threeSum/Solution.java)
+- [75. 比较含退格的字符串(844)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/backspaceStringCompare/Solution.java)
+- [76. 区间列表的交集(986)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/intervalListInterSections/Solution.java)
