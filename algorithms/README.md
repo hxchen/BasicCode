@@ -69,4 +69,6 @@
 - [78. 乘积小于 K 的子数组(713)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/subarrayProductLessThanK/Solution.java)
 - [79. 长度最小的子数组(209)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/miniumSizeSubArraySum/Solution.java)
 # 广度/深度优先搜索
+解题思路：变量保存访问信息。深度或者广度优先搜索标记。
 - [80. 岛屿数量(200)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/numberOfIslands/Solution.java)
+- [81. 省份数量(547)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/numberOfProvinces/Solution.java)
