@@ -72,3 +72,4 @@
 解题思路：变量保存访问信息。深度或者广度优先搜索标记。
 - [80. 岛屿数量(200)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/numberOfIslands/Solution.java)
 - [81. 省份数量(547)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/numberOfProvinces/Solution.java)
+- [82. 填充每个节点的下一个右侧节点指针 II(117)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/populatingNextRightPointersInEachNode/Solution.java)
