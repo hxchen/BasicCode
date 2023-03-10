@@ -77,3 +77,5 @@
 - [84. 二进制矩阵中的最短路径(1091)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/shortestPathBinaryMatrix/Solution.java)
 - [85. 被围绕的区域(130)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/surroundedRegions/Solution.java)
 - [86. 所有可能的路径(797)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/allPathsFromSourceToTarget/Solution.java)
+# 递归/回溯
+- [87. 子集(78)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/subsets/Solution.java)
