@@ -81,3 +81,4 @@
 - [87. 子集(78)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/subsets/Solution.java)
 - [88. 无重复值的全排列(46)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/permutations/Solution.java)
 - [89. 有重复值的全排列(47)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/permutations2/Solution.java)
+- [90. 组合总和(39)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/combinationSum/Solution.java)
