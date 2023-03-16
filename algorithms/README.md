@@ -78,9 +78,12 @@
 - [85. 被围绕的区域(130)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/surroundedRegions/Solution.java)
 - [86. 所有可能的路径(797)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/allPathsFromSourceToTarget/Solution.java)
 # 递归/回溯()
-解题思路：回溯的问题，可以先画出来深度优先搜索树，然后处理，递归，回溯
+解题思路：回溯的问题，可以先画出来深度优先搜索树，然后处理，递归，回溯(该撤销操作的一定要撤销)
 - [87. 子集(78)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/subsets/Solution.java)
 - [88. 无重复值的全排列(46)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/permutations/Solution.java)
 - [89. 有重复值的全排列(47)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/permutations2/Solution.java)
 - [90. 组合总和(39)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/combinationSum/Solution.java)
 - [91. 组合总和2(40)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/combinationSum/Solution.java)
+- [92. 电话号码的字母组合(17)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/letterCombinationsOfAPhoneNumber/Solution.java)
+- [93. 括号生成(22)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/generateParenthesis/Solution.java)
+- [94. 单词搜索(79)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/wordSearch/Solution.java)
