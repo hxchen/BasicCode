@@ -87,3 +87,7 @@
 - [92. 电话号码的字母组合(17)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/letterCombinationsOfAPhoneNumber/Solution.java)
 - [93. 括号生成(22)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/generateParenthesis/Solution.java)
 - [94. 单词搜索(79)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/wordSearch/Solution.java)
+# 动态规划
+- [95. 打家劫舍 II(213)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/houseRobber/Solution.java)
+- [96. 跳跃游戏(55)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/jumpGame/Solution.java)
+- 
