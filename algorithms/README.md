@@ -90,4 +90,6 @@
 # 动态规划
 - [95. 打家劫舍 II(213)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/houseRobber/Solution.java)
 - [96. 跳跃游戏(55)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/jumpGame/Solution.java)
+- [97. 跳跃游戏 II(45)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/jumpGame/Solution.java)
+- [98. 不同路径(62)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/uniquePaths/Solution.java)
 - 
