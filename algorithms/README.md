@@ -1,4 +1,4 @@
-# BasicCode
+# BasicCode（二分查找 双指针 滑动窗口 广度/深度优先搜索 递归/回溯 动态规划）
 1. 链表问题常见操作关键字：长度、逆序、快慢指针或双指针、先走N步。例如：环形链表、相交链表等问题。
 
 - [23. 链表中环的入口结点](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findEntryNodeInListLoop/FindEntryNodeInListLoop.java)
@@ -77,7 +77,7 @@
 - [84. 二进制矩阵中的最短路径(1091)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/shortestPathBinaryMatrix/Solution.java)
 - [85. 被围绕的区域(130)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/surroundedRegions/Solution.java)
 - [86. 所有可能的路径(797)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/allPathsFromSourceToTarget/Solution.java)
-# 递归/回溯()
+# 递归/回溯
 解题思路：回溯的问题，可以先画出来深度优先搜索树，然后处理，递归，回溯(该撤销操作的一定要撤销)
 - [87. 子集(78)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/subsets/Solution.java)
 - [88. 无重复值的全排列(46)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/permutations/Solution.java)
@@ -88,8 +88,11 @@
 - [93. 括号生成(22)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/generateParenthesis/Solution.java)
 - [94. 单词搜索(79)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/wordSearch/Solution.java)
 # 动态规划
+解题思路：找扩散转移方程、临界条件
 - [95. 打家劫舍 II(213)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/houseRobber/Solution.java)
 - [96. 跳跃游戏(55)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/jumpGame/Solution.java)
 - [97. 跳跃游戏 II(45)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/jumpGame/Solution.java)
 - [98. 不同路径(62)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/uniquePaths/Solution.java)
+- [99. *最长回文子串(5)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/longestPalindrome/Solution.java)
+- [100. 等差数列划分(413)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/arithmeticSlices/Solution.java)
 - 
