@@ -95,4 +95,6 @@
 - [98. 不同路径(62)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/uniquePaths/Solution.java)
 - [99. *最长回文子串(5)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/longestPalindrome/Solution.java)
 - [100. 等差数列划分(413)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/arithmeticSlices/Solution.java)
+- [101. *解码方法(91)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/decodeWays/Solution.java)
+- [102. *单词拆分(139)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/wordBreak/Solution.java)
 - 

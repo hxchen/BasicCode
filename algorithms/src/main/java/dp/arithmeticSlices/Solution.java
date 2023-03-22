@@ -32,7 +32,7 @@ public class Solution {
      * 69.2 MB
      * 击败
      * 5.14%
-     * 
+     *
      * 状态转移方程
      * dp[i][j]表示下标索引 i 到 j 是否是等差数列
      * 状态转移方程:dp[i][j] = dp[i][j - 1]  && nums[j] - nums[j - 1] == nums[i + 1] - nums[i]
