@@ -88,7 +88,7 @@
 - [93. 括号生成(22)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/generateParenthesis/Solution.java)
 - [94. 单词搜索(79)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/wordSearch/Solution.java)
 # 动态规划
-解题思路：找扩散转移方程、临界条件
+解题思路：找扩散转移方程、临界条件.dp 可能是一维的，也可能是二维的。
 - [95. 打家劫舍 II(213)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/houseRobber/Solution.java)
 - [96. 跳跃游戏(55)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/jumpGame/Solution.java)
 - [97. 跳跃游戏 II(45)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/jumpGame/Solution.java)
@@ -99,4 +99,5 @@
 - [102. *单词拆分(139)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/wordBreak/Solution.java)
 - [102. *最长递增子序列(300)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/longestIncreasingSubsequence/Solution.java)
 - [102. **最长递增子序列的个数(673)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/numberOfLongestIncreasingSubsequence/Solution.java)
+- [102. **最长公共子序列(1143)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/longestCommonSubsequence/Solution.java)
 - 
