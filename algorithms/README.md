@@ -97,8 +97,9 @@
 - [100. 等差数列划分(413)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/arithmeticSlices/Solution.java)
 - [101. *解码方法(91)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/decodeWays/Solution.java)
 - [102. *单词拆分(139)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/wordBreak/Solution.java)
-- [102. *最长递增子序列(300)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/longestIncreasingSubsequence/Solution.java)
-- [102. **最长递增子序列的个数(673)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/numberOfLongestIncreasingSubsequence/Solution.java)
-- [102. **最长公共子序列(1143)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/longestCommonSubsequence/Solution.java)
-- [102. 两个字符串的删除操作(583)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/deleteOperationForTwoStrings/Solution.java)
+- [103. *最长递增子序列(300)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/longestIncreasingSubsequence/Solution.java)
+- [104. **最长递增子序列的个数(673)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/numberOfLongestIncreasingSubsequence/Solution.java)
+- [105. **最长公共子序列(1143)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/longestCommonSubsequence/Solution.java)
+- [106. 两个字符串的删除操作(583)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/deleteOperationForTwoStrings/Solution.java)
+- [107. 编辑距离(72)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/editDistance/Solution.java)
 - 
