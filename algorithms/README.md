@@ -103,4 +103,10 @@
 - [106. 两个字符串的删除操作(583)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/deleteOperationForTwoStrings/Solution.java)
 - [107. 编辑距离(72)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/editDistance/Solution.java)
 - [108. 零钱兑换(322)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/coinExchange/Solution.java)
-- 
+- [109. 整数拆分(343)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/integerBreak/Solution.java)
+# 位运算
+- [110. 数字范围按位与(201)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/rangeBitwiseAnd/Solution.java)
+# 其他
+- [111. 打乱数组(384)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/shuffleAnArray/Solution.java)
+- [112. 快乐数(202)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/happyNumber/Solution.java)
+
