@@ -53,11 +53,17 @@
 - [66. 构建乘积数组](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/constuctArray/ConstuctArray.java)
 - [67. 有效的括号](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/validParentheses/ValidParentheses.java)
 # 二分查找
+注意要点：
+1. 计算中间值时不要溢出(mid = start + (end - start)/2)
+2. while结束条件（start <= end）
+3. start 或者 end 下一次位置时 mid +- 1
 - [68. 在排序数组中查找元素的第一个和最后一个位置](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findFitstAndLastPosInNonDecArray/Solution.java)
 - [69. 搜索旋转排序数组(33)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/searchedRotatedSortedArray/Solution.java)
 - [70. 搜索二维矩阵(74)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/searchA2dMatrix/Solution.java)
 - [71. 寻找旋转排序数组中的最小值(153)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findMinimumInrotaedSortedArray/Solution.java)
 - [72. 寻找旋转排序数组中的最小值(162)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findPeakElement/Solution.java)
+- [114. 二分查找(704)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/binarySearch/Solution.java)
+- [115. 第一个错误的版本(278)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/binarySearch/firstBadVersion/Solution.java)
 # 双指针
 - [73. 删除排序链表中的重复元素 II(82)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/removeDuplicatesFromSortedList/Solution.java)
 - [74. 三数之和(15)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/threeSum/Solution.java)
