@@ -64,6 +64,7 @@
 - [72. 寻找旋转排序数组中的最小值(162)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findPeakElement/Solution.java)
 - [114. 二分查找(704)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/binarySearch/Solution.java)
 - [115. 第一个错误的版本(278)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/binarySearch/firstBadVersion/Solution.java)
+- [116. 搜索插入位置(35)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/binarySearch/searchInsertPosition/Solution.java)
 # 双指针
 - [73. 删除排序链表中的重复元素 II(82)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/removeDuplicatesFromSortedList/Solution.java)
 - [74. 三数之和(15)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/threeSum/Solution.java)
