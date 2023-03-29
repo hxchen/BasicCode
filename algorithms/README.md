@@ -66,6 +66,7 @@
 - [115. 第一个错误的版本(278)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/binarySearch/firstBadVersion/Solution.java)
 - [116. 搜索插入位置(35)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/binarySearch/searchInsertPosition/Solution.java)
 # 双指针
+解题思路：注意利用前后指针、快慢指针。
 - [73. 删除排序链表中的重复元素 II(82)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/removeDuplicatesFromSortedList/Solution.java)
 - [74. 三数之和(15)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/threeSum/Solution.java)
 - [75. 比较含退格的字符串(844)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/backspaceStringCompare/Solution.java)
@@ -73,6 +74,8 @@
 - [77. 盛最多水的容器(11)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/containerWithMostWater/Solution.java)
 - [117. 有序数组的平方(977)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/sortedSquares/Solution.java)
 - [118. 轮转数组(189)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/rotateArray/Solution.java)
+- [119. 移动零(283)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/moveZeroes/Solution.java)
+- [120. 两数之和 II - 输入有序数组(167)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/twoSunms/Solution.java)
 # 滑动窗口
 - [77. 找到字符串中所有字母异位词(438)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findAllAnagramsInAString/Solution.java)
 - [78. 乘积小于 K 的子数组(713)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/subarrayProductLessThanK/Solution.java)
