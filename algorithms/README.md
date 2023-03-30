@@ -78,6 +78,8 @@
 - [120. 两数之和 II - 输入有序数组(167)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/twoSunms/Solution.java)
 - [121. 反转字符串(344)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/reverseString/Solution.java)
 - [122. 反转字符串中的单词 III(557)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/reverseWordsInAString/Solution.java)
+- [123. 链表的中间结点(876)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/midOfTheLinkedList/Solution.java)
+- [124. 删除链表的倒数第 N 个结点(19)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/removeNthNodeFromEnd/Solution.java)
 # 滑动窗口
 - [77. 找到字符串中所有字母异位词(438)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findAllAnagramsInAString/Solution.java)
 - [78. 乘积小于 K 的子数组(713)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/subarrayProductLessThanK/Solution.java)
