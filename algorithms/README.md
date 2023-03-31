@@ -81,9 +81,12 @@
 - [123. 链表的中间结点(876)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/midOfTheLinkedList/Solution.java)
 - [124. 删除链表的倒数第 N 个结点(19)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/removeNthNodeFromEnd/Solution.java)
 # 滑动窗口
-- [77. 找到字符串中所有字母异位词(438)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/findAllAnagramsInAString/Solution.java)
-- [78. 乘积小于 K 的子数组(713)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/subarrayProductLessThanK/Solution.java)
-- [79. 长度最小的子数组(209)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/miniumSizeSubArraySum/Solution.java)
+解题思路：找到窗口是关键，这个窗口可以是固定大小也可能是可变大小。
+- [77. 找到字符串中所有字母异位词(438)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/slidingWindow/findAllAnagramsInAString/Solution.java)
+- [78. 乘积小于 K 的子数组(713)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/slidingWindow/subarrayProductLessThanK/Solution.java)
+- [79. 长度最小的子数组(209)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/slidingWindow/miniumSizeSubArraySum/Solution.java)
+- [125. 无重复字符的最长子串(3)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/slidingWindow/longestSubStringWithoutRepeatingChars/Solution.java)
+- [126. 字符串的排列(567)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/slidingWindow/permutationInAString/Solution.java)
 # 广度/深度优先搜索
 解题思路：变量保存访问信息。深度(递归或者栈)或者广度(队列)优先搜索标记。
 - [80. 岛屿数量(200)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/numberOfIslands/Solution.java)

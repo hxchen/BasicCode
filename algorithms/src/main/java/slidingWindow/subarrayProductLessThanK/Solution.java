@@ -1,4 +1,4 @@
-package subarrayProductLessThanK;
+package slidingWindow.subarrayProductLessThanK;
 
 import org.junit.Test;
 

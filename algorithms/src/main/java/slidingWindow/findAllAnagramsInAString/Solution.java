@@ -1,4 +1,4 @@
-package findAllAnagramsInAString;
+package slidingWindow.findAllAnagramsInAString;
 
 import org.junit.Test;
 
