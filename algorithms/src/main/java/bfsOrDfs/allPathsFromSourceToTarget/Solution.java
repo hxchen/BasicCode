@@ -1,4 +1,4 @@
-package allPathsFromSourceToTarget;
+package bfsOrDfs.allPathsFromSourceToTarget;
 
 import org.junit.Test;
 

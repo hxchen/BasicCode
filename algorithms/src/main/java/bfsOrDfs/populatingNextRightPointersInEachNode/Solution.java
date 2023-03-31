@@ -1,4 +1,4 @@
-package populatingNextRightPointersInEachNode;
+package bfsOrDfs.populatingNextRightPointersInEachNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

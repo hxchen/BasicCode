@@ -1,4 +1,4 @@
-package surroundedRegions;
+package bfsOrDfs.surroundedRegions;
 
 import org.junit.Test;
 

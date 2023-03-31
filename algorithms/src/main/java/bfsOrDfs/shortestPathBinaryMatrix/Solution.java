@@ -1,4 +1,4 @@
-package shortestPathBinaryMatrix;
+package bfsOrDfs.shortestPathBinaryMatrix;
 
 import org.junit.Test;
 

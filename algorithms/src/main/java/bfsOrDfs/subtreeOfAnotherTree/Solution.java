@@ -1,4 +1,4 @@
-package subtreeOfAnotherTree;
+package bfsOrDfs.subtreeOfAnotherTree;
 
 import BstDel.TreeNode;
 

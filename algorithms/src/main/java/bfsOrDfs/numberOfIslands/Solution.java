@@ -1,4 +1,4 @@
-package numberOfIslands;
+package bfsOrDfs.numberOfIslands;
 
 import org.junit.Test;
 

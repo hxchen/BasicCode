@@ -1,4 +1,4 @@
-package numberOfProvinces;
+package bfsOrDfs.numberOfIslands.numberOfProvinces;
 
 import org.junit.Test;
 
