@@ -102,6 +102,7 @@
 - [129. 合并二叉树(617)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/mergeTwoBinTrees/Solution.java)
 - [130. 填充每个节点的下一个右侧节点指针(116)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/polulatingNextRight/Solution.java)
 - [131. 01 矩阵(542)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/matrix01/Solution.java)
+- [132. 腐烂的橘子(994)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/rottingOranges/Solution.java)
 # 递归/回溯
 解题思路：回溯的问题，可以先画出来深度优先搜索树，然后处理，递归，回溯(该撤销操作的一定要撤销)
 - [87. 子集(78)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/subsets/Solution.java)
