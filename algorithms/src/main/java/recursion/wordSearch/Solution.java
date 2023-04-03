@@ -1,4 +1,4 @@
-package wordSearch;
+package recursion.wordSearch;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package generateParenthesis;
+package recursion.generateParenthesis;
 
 import org.junit.Test;
 

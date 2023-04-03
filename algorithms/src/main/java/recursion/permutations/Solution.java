@@ -1,4 +1,4 @@
-package permutations;
+package recursion.permutations;
 
 import org.junit.Test;
 

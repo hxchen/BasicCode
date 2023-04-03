@@ -1,4 +1,4 @@
-package subsets;
+package recursion.subsets;
 
 import org.junit.Test;
 

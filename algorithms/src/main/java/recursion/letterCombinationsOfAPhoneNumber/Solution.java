@@ -1,4 +1,4 @@
-package letterCombinationsOfAPhoneNumber;
+package recursion.letterCombinationsOfAPhoneNumber;
 
 import org.junit.Test;
 

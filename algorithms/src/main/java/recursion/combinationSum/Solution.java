@@ -1,4 +1,4 @@
-package combinationSum;
+package recursion.combinationSum;
 
 import org.junit.Test;
 
