@@ -114,6 +114,7 @@
 - [93. 括号生成(22)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/generateParenthesis/Solution.java)
 - [94. 单词搜索(79)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/wordSearch/Solution.java)
 - [133. 合并两个有序链表(21)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/mergeTwoSortedLists/Solution.java)
+- [134. *组合(77)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/combinations/Solution.java)
 # 动态规划
 解题思路：找扩散转移方程、临界条件.dp 可能是一维的，也可能是二维的。
 - [95. 打家劫舍 II(213)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/houseRobber/Solution.java)
