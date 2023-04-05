@@ -106,7 +106,7 @@
 # 递归/回溯
 解题思路：回溯的问题，可以先画出来深度优先搜索树，然后处理，递归，回溯(该撤销操作的一定要撤销)
 - [87. 子集(78)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/subsets/Solution.java)
-- [88. 无重复值的全排列(46)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/permutations/Solution.java)
+- [88. *无重复值的全排列(46)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/permutations/Solution.java)
 - [89. 有重复值的全排列(47)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/permutations2/Solution.java)
 - [90. 组合总和(39)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/combinationSum/Solution.java)
 - [91. 组合总和2(40)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/combinationSum/Solution.java)
@@ -115,6 +115,7 @@
 - [94. 单词搜索(79)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/wordSearch/Solution.java)
 - [133. 合并两个有序链表(21)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/mergeTwoSortedLists/Solution.java)
 - [134. *组合(77)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/combinations/Solution.java)
+- [135. *字母大小写全排列(784)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/letterCasePermutation/Solution.java)
 # 动态规划
 解题思路：找扩散转移方程、临界条件.dp 可能是一维的，也可能是二维的。
 - [95. 打家劫舍 II(213)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/houseRobber/Solution.java)
