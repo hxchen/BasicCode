@@ -117,8 +117,8 @@
 - [134. *组合(77)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/combinations/Solution.java)
 - [135. *字母大小写全排列(784)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/letterCasePermutation/Solution.java)
 # 动态规划
-解题思路：找扩散转移方程、临界条件.dp 可能是一维的，也可能是二维的。
-- [95. 打家劫舍 II(213)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/houseRobber/Solution.java)
+解题思路：(最大最小问题？)找扩散转移方程、临界条件.dp 可能是一维的，也可能是二维的。
+- [95. 打家劫舍 II(213)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/houseRobber2/Solution.java)
 - [96. 跳跃游戏(55)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/jumpGame/Solution.java)
 - [97. 跳跃游戏 II(45)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/jumpGame/Solution.java)
 - [98. 不同路径(62)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/uniquePaths/Solution.java)
@@ -133,6 +133,9 @@
 - [107. 编辑距离(72)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/editDistance/Solution.java)
 - [108. 零钱兑换(322)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/coinExchange/Solution.java)
 - [109. 整数拆分(343)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/integerBreak/Solution.java)
+- [136. 爬楼梯(70)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/climbStairs/Solution.java)
+- [137. 打家劫舍(198)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/houseRobber/Solution.java)
+- [138. 三角形最小路径和(120)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/minPathInTriangle/Solution.java)
 # 位运算
 - [110. 数字范围按位与(201)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/rangeBitwiseAnd/Solution.java)
 # 其他
