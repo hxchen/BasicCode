@@ -137,7 +137,9 @@
 - [137. 打家劫舍(198)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/houseRobber/Solution.java)
 - [138. 三角形最小路径和(120)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/minPathInTriangle/Solution.java)
 # 位运算
-- [110. 数字范围按位与(201)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/rangeBitwiseAnd/Solution.java)
+- [110. 数字范围按位与(201)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bitOperation/rangeBitwiseAnd/Solution.java)
+- [139. 2的幂(231)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bitOperation/powerOfTwo/Solution.java)
+- [140. 数字范围按位与(201)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bitOperation/numberOf1Bits/Solution.java)
 # 其他
 - [111. 打乱数组(384)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/shuffleAnArray/Solution.java)
 - [112. 快乐数(202)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/happyNumber/Solution.java)

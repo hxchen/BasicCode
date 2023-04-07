@@ -1,4 +1,4 @@
-package other.rangeBitwiseAnd;
+package bitOperation.rangeBitwiseAnd;
 
 import org.junit.Assert;
 import org.junit.Test;
