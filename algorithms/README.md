@@ -52,6 +52,7 @@
 - [65. 不用加减乘除做加法](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/addTwoNumbers/AddTwoNumbers.java)
 - [66. 构建乘积数组](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/constuctArray/ConstuctArray.java)
 - [67. 有效的括号](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/validParentheses/ValidParentheses.java)
+- [139. 有效的数独](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/validSudoku/Solution.java)
 # 二分查找
 注意要点：
 1. 计算中间值时不要溢出(mid = start + (end - start)/2)
