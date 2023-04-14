@@ -10,7 +10,7 @@ public class Task implements Runnable {
     }
     @Override
     public void run(){
-        System.out.println("执行第" + taskID + "次任务");
+        System.out.println(Thread.currentThread().getName() + "执行第" + taskID + "次任务");
     }
 }
 
