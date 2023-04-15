@@ -55,6 +55,7 @@
 # 数组/字符串
 - [1. 有效的数独](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/validSudoku/Solution.java)
 - [2. 分发糖果](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/disCandy/Solution.java)
+- [2. 不邻接植花](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/flowerPlanting/Solution.java)
 # 二分查找
 注意要点：
 1. 计算中间值时不要溢出(mid = start + (end - start)/2)
