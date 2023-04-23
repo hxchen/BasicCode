@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.a3fun</groupId>
-    <artifactId>load_balancing</artifactId>
+    <artifactId>load-balancing</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>load_balancing</name>
     <description>Demo project for Spring Boot</description>

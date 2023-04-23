@@ -14,7 +14,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.a3fun.com</groupId>
-    <artifactId>basic-code</artifactId>
+    <artifactId>BasicCode</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>BasicCode</name>
     <description>Demo project for Spring Boot</description>
