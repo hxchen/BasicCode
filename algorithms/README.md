@@ -55,7 +55,7 @@
 # 数组/字符串
 - [1. 有效的数独](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/validSudoku/Solution.java)
 - [2. 分发糖果](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/disCandy/Solution.java)
-- [2. 不邻接植花](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/flowerPlanting/Solution.java)
+- [3. 不邻接植花](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/flowerPlanting/Solution.java)
 # 二分查找
 注意要点：
 1. 计算中间值时不要溢出(mid = start + (end - start)/2)
@@ -141,6 +141,7 @@
 - [16. 爬楼梯(70)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/climbStairs/Solution.java)
 - [17. 打家劫舍(198)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/houseRobber/Solution.java)
 - [18. 三角形最小路径和(120)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/minPathInTriangle/Solution.java)
+- [19. 按顺序填充书架(1105)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/fillBookcaseShelves/Solution.java)
 # 位运算
 - [1. 数字范围按位与(201)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bitOperation/rangeBitwiseAnd/Solution.java)
 - [2. 2的幂(231)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bitOperation/powerOfTwo/Solution.java)
