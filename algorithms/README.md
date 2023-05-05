@@ -144,6 +144,7 @@
 - [17. 打家劫舍(198)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/houseRobber/Solution.java)
 - [18. 三角形最小路径和(120)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/minPathInTriangle/Solution.java)
 - [19. 按顺序填充书架(1105)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/fillBookcaseShelves/Solution.java)
+- [20. 杨辉三角(118)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/pascalsTriangle/Solution.java)
 # 位运算
 - [1. 数字范围按位与(201)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bitOperation/rangeBitwiseAnd/Solution.java)
 - [2. 2的幂(231)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bitOperation/powerOfTwo/Solution.java)
