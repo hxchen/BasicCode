@@ -57,6 +57,7 @@
 - [2. 分发糖果](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/disCandy/Solution.java)
 - [3. 不邻接植花](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/flowerPlanting/Solution.java)
 - [4. 按身高排序](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/sortThePeople/Solution.java)
+- [5. 处理用时最长的那个任务的员工](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/hardestWorker/Solution.java)
 # 二分查找
 注意要点：
 1. 计算中间值时不要溢出(mid = start + (end - start)/2)
