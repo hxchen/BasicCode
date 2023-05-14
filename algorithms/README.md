@@ -58,6 +58,8 @@
 - [3. 不邻接植花](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/flowerPlanting/Solution.java)
 - [4. 按身高排序](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/sortThePeople/Solution.java)
 - [5. 处理用时最长的那个任务的员工](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/hardestWorker/Solution.java)
+- [6. 最大的K个数(优先级队列实现最小堆)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/hardestWorker/Solution.java)
+- [7. 距离相等的条形码(1054)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/distantBarcodes/Solution.java)
 # 二分查找
 注意要点：
 1. 计算中间值时不要溢出(mid = start + (end - start)/2)
@@ -153,4 +155,5 @@
 - [1. 打乱数组(384)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/shuffleAnArray/Solution.java)
 - [2. 快乐数(202)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/happyNumber/Solution.java)
 - [3. 直线上最多的点数(149)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/maxPointsOnALine/Solution.java)
+
 
