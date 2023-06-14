@@ -85,11 +85,12 @@
 - [6. 有序数组的平方(977)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/sortedSquares/Solution.java)
 - [7. 轮转数组(189)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/rotateArray/Solution.java)
 - [8. 移动零(283)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/moveZeroes/Solution.java)
-- [9. 两数之和 II - 输入有序数组(167)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/twoSunms/Solution.java)
+- [9. 两数之和 II - 输入有序数组(167)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/twoSums/Solution.java)
 - [10. 反转字符串(344)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/reverseString/Solution.java)
 - [11. 反转字符串中的单词 III(557)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/reverseWordsInAString/Solution.java)
 - [12. 链表的中间结点(876)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/midOfTheLinkedList/Solution.java)
 - [13. 删除链表的倒数第 N 个结点(19)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/removeNthNodeFromEnd/Solution.java)
+- [14. 两数之和(1)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/twoPointers/twoSum/Solution.java)
 # 滑动窗口
 解题思路：找到窗口是关键，这个窗口可以是固定大小也可能是可变大小。
 - [1. 找到字符串中所有字母异位词(438)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/slidingWindow/findAllAnagramsInAString/Solution.java)
