@@ -159,5 +159,6 @@
 - [1. 打乱数组(384)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/shuffleAnArray/Solution.java)
 - [2. 快乐数(202)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/happyNumber/Solution.java)
 - [3. 直线上最多的点数(149)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/maxPointsOnALine/Solution.java)
+- [3. 阶乘和进制转换](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/factorialConversion/Solution.java)
 
 
