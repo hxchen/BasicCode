@@ -2,18 +2,18 @@ package com.a3fun.springredismysql.service;
 
 import com.a3fun.springredismysql.entity.Person;
 import com.a3fun.springredismysql.mapper.PersonMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.*;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 @Service
 @CacheConfig(cacheNames = "users")
 public class PersonService {
 
-    @Resource
+    @Autowired
     PersonMapper personMapper;
 
     @Cacheable( key = "'id='+#id")
