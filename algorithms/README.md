@@ -129,6 +129,7 @@
 - [9. *组合(77)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/combinations/Solution.java)
 - [10. *字母大小写全排列(784)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/letterCasePermutation/Solution.java)
 - [11. 矩阵中的最短路径和(DFS&BFS)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/shortestPathInMatrix/Solution.java)
+- [12. 路径总和(112)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/pathSum/Solution.java)
 # 动态规划
 解题思路：(最大最小问题？)找扩散转移方程、临界条件.dp 可能是一维的，也可能是二维的。
 对于矩阵中的最短路径和，我们提供了高效的DP解法，以及DFS递归解法和BFS队列解法，可以作为典型来学习。
@@ -161,6 +162,7 @@
 - [1. 打乱数组(384)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/shuffleAnArray/Solution.java)
 - [2. 快乐数(202)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/happyNumber/Solution.java)
 - [3. 直线上最多的点数(149)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/maxPointsOnALine/Solution.java)
-- [3. 阶乘和进制转换](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/factorialConversion/Solution.java)
+- [4. 阶乘和进制转换](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/factorialConversion/Solution.java)
+- [5. 课程表(207)-拓扑排序](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/courseSchedule/Solution.java)
 
 
