@@ -128,8 +128,10 @@
 - [8. 合并两个有序链表(21)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/mergeTwoSortedLists/Solution.java)
 - [9. *组合(77)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/combinations/Solution.java)
 - [10. *字母大小写全排列(784)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/letterCasePermutation/Solution.java)
+- [11. 矩阵中的最短路径和(DFS&BFS)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/shortestPathInMatrix/Solution.java)
 # 动态规划
 解题思路：(最大最小问题？)找扩散转移方程、临界条件.dp 可能是一维的，也可能是二维的。
+对于矩阵中的最短路径和，我们提供了高效的DP解法，以及DFS递归解法和BFS队列解法，可以作为典型来学习。
 - [1. 打家劫舍 II(213)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/houseRobber2/Solution.java)
 - [2. 跳跃游戏(55)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/jumpGame/Solution.java)
 - [3. 跳跃游戏 II(45)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/jumpGame/Solution.java)
