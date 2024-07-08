@@ -63,7 +63,8 @@
 - [8. 蓄水(LCP33)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/fillWater/Solution.java)
 - [9. 二进制字符串前缀一致的次数(1375)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/prefixAligned/Solution.java)
 # 哈希
-- [1. 字母异位词分组](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/groupAnagrams/Solution.java)
+- [1. 字母异位词分组](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/hash/groupAnagrams/Solution.java)
+- [2. 最长连续序列](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/hash/longestConsecutive/Solution.java)
 # 二分查找
 注意要点：
 1. 计算中间值时不要溢出(mid = start + (end - start)/2)

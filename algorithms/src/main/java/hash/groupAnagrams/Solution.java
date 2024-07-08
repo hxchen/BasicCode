@@ -1,4 +1,4 @@
-package arrayString.groupAnagrams;
+package hash.groupAnagrams;
 
 import java.util.*;
 
