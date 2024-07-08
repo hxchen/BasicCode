@@ -62,6 +62,8 @@
 - [7. 距离相等的条形码(1054)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/distantBarcodes/Solution.java)
 - [8. 蓄水(LCP33)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/fillWater/Solution.java)
 - [9. 二进制字符串前缀一致的次数(1375)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/prefixAligned/Solution.java)
+# 哈希
+- [1. 字母异位词分组](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/groupAnagrams/Solution.java)
 # 二分查找
 注意要点：
 1. 计算中间值时不要溢出(mid = start + (end - start)/2)
