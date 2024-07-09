@@ -62,6 +62,7 @@
 - [7. 距离相等的条形码(1054)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/distantBarcodes/Solution.java)
 - [8. 蓄水(LCP33)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/fillWater/Solution.java)
 - [9. 二进制字符串前缀一致的次数(1375)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/prefixAligned/Solution.java)
+- [10. 和为K的子数组(560)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/subarraySum/Solution.java)
 # 哈希
 - [1. 字母异位词分组](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/hash/groupAnagrams/Solution.java)
 - [2. 最长连续序列](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/hash/longestConsecutive/Solution.java)
