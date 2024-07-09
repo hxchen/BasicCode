@@ -58,7 +58,7 @@
 - [3. 不邻接植花](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/flowerPlanting/Solution.java)
 - [4. 按身高排序](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/sortThePeople/Solution.java)
 - [5. 处理用时最长的那个任务的员工](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/hardestWorker/Solution.java)
-- [6. 最大的K个数(优先级队列实现最小堆)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/hardestWorker/Solution.java)
+- [6. 最大的K个数(优先级队列实现最小堆)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/topK/Solution.java)
 - [7. 距离相等的条形码(1054)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/distantBarcodes/Solution.java)
 - [8. 蓄水(LCP33)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/fillWater/Solution.java)
 - [9. 二进制字符串前缀一致的次数(1375)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/prefixAligned/Solution.java)
@@ -159,6 +159,7 @@
 - [19. 按顺序填充书架(1105)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/fillBookcaseShelves/Solution.java)
 - [20. 杨辉三角(118)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/pascalsTriangle/Solution.java)
 - [21. 矩阵中的最短路径和](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/shortestPathInMatrix/Solution.java)
+- [22. 最大子序和](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/FindMaxSumOfSubArrays/Solution.java)
 # 位运算
 - [1. 数字范围按位与(201)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bitOperation/rangeBitwiseAnd/Solution.java)
 - [2. 2的幂(231)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bitOperation/powerOfTwo/Solution.java)

@@ -4,7 +4,9 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Deque;
+import java.util.PriorityQueue;
 import java.util.concurrent.LinkedBlockingDeque;
 
 /**
@@ -55,6 +57,25 @@ public class MaxInSlidingWindow {
         return arrayList;
     }
 
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        int n = nums.length;
+        PriorityQueue<int[]> pq = new PriorityQueue<>((pair1, pair2) -> pair1[0] != pair2[0] ? pair2[0] - pair1[0] : pair2[1] - pair1[1]);
+        for (int i = 0; i < k; ++i) {
+            pq.offer(new int[]{nums[i], i});
+        }
+        int[] ans = new int[n - k + 1];
+        ans[0] = pq.peek()[0];
+        for (int i = k; i < n; ++i) {
+            pq.offer(new int[]{nums[i], i});
+            while (pq.peek()[1] <= i - k) {
+                pq.poll();
+            }
+            ans[i - k + 1] = pq.peek()[0];
+        }
+        return ans;
+    }
+
+
     private int[] list2Array(ArrayList<Integer> arrayList) {
 
         int[] array = new int[arrayList.size()];
@@ -68,7 +89,8 @@ public class MaxInSlidingWindow {
     public void Test1() {
         int num[] = {2, 3, 4, 2, 6, 2, 5, 1};
         int expected[] = {4, 4, 6, 6, 6, 5};
-        Assert.assertArrayEquals(expected, list2Array(maxInWindows(num, 3)));
+//        Assert.assertArrayEquals(expected, list2Array(maxInWindows(num, 3)));
+        Assert.assertArrayEquals(expected, maxSlidingWindow(num, 3));
     }
 
     @Test

@@ -67,16 +67,16 @@ public class Solution {
         Solution solution = new Solution();
         int[] nums1 = {1, 1, 1};
         int k1 = 2;
-        System.out.println(solution.subarraySum2(nums1, k1));
+        System.out.println(solution.subarraySum(nums1, k1));
 
         int[] nums2 = {1, 2, 3};
         int k2 = 3;
-        System.out.println(solution.subarraySum2(nums2, k2));
+        System.out.println(solution.subarraySum(nums2, k2));
 
         // 极好的测试用例
         int[] nums3 = {1, -1, 0};
         int k3 = 0;
-        System.out.println(solution.subarraySum2(nums3, k3));
+        System.out.println(solution.subarraySum(nums3, k3));
 
     }
 }

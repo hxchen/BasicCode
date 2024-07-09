@@ -11,15 +11,20 @@ import org.junit.Test;
  */
 public class FindMaxSumOfSubArrays {
 
-    public static boolean isInvalidInput = false;
+//    public static boolean isInvalidInput = false;
 
+    /**
+     * 贪心算法
+     * @param arr
+     * @return
+     */
     public static int findMaxSumOfSubArrays(int[] arr) {
         if (null == arr) {
-            isInvalidInput = true;
-            return 0;
+//            isInvalidInput = true;
+            return Integer.MIN_VALUE;
         }
         int currentSum = 0;
-        int maxSum = 0;
+        int maxSum = arr[0];
         for (int i = 0; i < arr.length; i++) {
             if (currentSum < 0) {
                 currentSum = arr[i];
@@ -33,9 +38,35 @@ public class FindMaxSumOfSubArrays {
         return maxSum;
     }
 
+    /**
+     * DP 算法
+     * @param nums
+     * @return
+     */
+    public int maxSubArray(int[] nums) {
+        if (null == nums) {
+            return 0;
+        }
+        int n = nums.length;
+        int[] dp = new int[n];
+        // base case
+        dp[0] = nums[0];
+        // 状态转移方程
+        for (int i = 1; i < n; i++) {
+            dp[i] = Math.max(nums[i], dp[i - 1] + nums[i]);
+        }
+        // 得到最大值
+        int res = Integer.MIN_VALUE;
+        for (int i = 0; i < n; i++) {
+            res = Math.max(res, dp[i]);
+        }
+        return res;
+    }
+
     public void Test(int[] arr, int expectedMax, boolean flag) {
-        int maxSum = findMaxSumOfSubArrays(arr);
-        Assert.assertTrue(maxSum == expectedMax && isInvalidInput == flag);
+        int maxSum = maxSubArray(arr);
+//        Assert.assertTrue(maxSum == expectedMax && isInvalidInput == flag);
+        Assert.assertTrue(maxSum == expectedMax);
     }
 
     @Test
@@ -58,7 +89,13 @@ public class FindMaxSumOfSubArrays {
 
     @Test
     public void Test4() {
-        Test(null, 0, true);
+        Test(null, Integer.MIN_VALUE, true);
+    }
+
+    @Test
+    public void Test5() {
+        int data[] = {-1};
+        Test(data, -1, false);
     }
 
 }
