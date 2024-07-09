@@ -39,10 +39,25 @@ public class Solution {
         System.arraycopy(ret, 0, nums, 0, len);
     }
 
+    public void rotate2(int[] nums, int k) {
+        int[] copy = new int[nums.length];
+        for(int i = 0; i < nums.length; i++) {
+            copy[i] = nums[i];
+        }
+        int times = k % nums.length;
+        int m = 0;
+        for(int i = nums.length - times; i < nums.length; i ++) {
+            nums[m++] = copy[i];
+        }
+        for(int j = 0; j < nums.length - times; j++) {
+            nums[m++] = copy[j];
+        }
+    }
+
     @Test
     public void Test1(){
         int[] nums = new int[]{1, 2, 3, 4, 5};
-        rotate(nums, 3);
+        rotate2(nums, 3);
         System.out.println(Arrays.toString(nums));
     }
 }
