@@ -69,6 +69,8 @@
 # 矩阵
 - [1. 矩阵置0(73)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/matrix/setZeroes/Solution.java)
 - [2. 螺旋矩阵(54)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/matrix/spiralOrder/Solution.java)
+- [3. 螺旋图像(48)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/matrix/rotate/Solution.java)
+- [4. 搜索二维矩阵2(240)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/matrix/searchMatrix/Solution.java)
 # 哈希
 - [1. 字母异位词分组](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/hash/groupAnagrams/Solution.java)
 - [2. 最长连续序列](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/hash/longestConsecutive/Solution.java)
