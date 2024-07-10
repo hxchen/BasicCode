@@ -68,6 +68,7 @@
 - [12. 缺失的第一个正数(41)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/firstMissingPositive/Solution.java)
 # 矩阵
 - [1. 矩阵置0(73)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/matrix/setZeroes/Solution.java)
+- [2. 螺旋矩阵(54)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/matrix/spiralOrder/Solution.java)
 # 哈希
 - [1. 字母异位词分组](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/hash/groupAnagrams/Solution.java)
 - [2. 最长连续序列](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/hash/longestConsecutive/Solution.java)
