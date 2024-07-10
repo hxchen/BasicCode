@@ -66,6 +66,8 @@
 - [10. 合并区间(56)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/mergeIntervals/Solution.java)
 - [11. 除自身以外数组的乘积(238)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/productExceptSelf/Solution.java)
 - [12. 缺失的第一个正数(41)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/firstMissingPositive/Solution.java)
+# 矩阵
+- [1. 矩阵置0(73)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/matrix/setZeroes/Solution.java)
 # 哈希
 - [1. 字母异位词分组](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/hash/groupAnagrams/Solution.java)
 - [2. 最长连续序列](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/hash/longestConsecutive/Solution.java)
