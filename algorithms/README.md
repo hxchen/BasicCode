@@ -54,6 +54,7 @@
 - [67. 有效的括号](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/validParentheses/ValidParentheses.java)
 - [68. 回文链表](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/list_node/IsPalindrome.java)
 - [69. 环形链表](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/list_node/HasCycle.java)
+- [69. 环形链表2(142)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/list_node/HasCycle.java)
 # 数组/字符串
 - [1. 有效的数独](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/validSudoku/Solution.java)
 - [2. 分发糖果](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/disCandy/Solution.java)
