@@ -57,7 +57,7 @@
 - [70. 环形链表2(142)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/list_node/HasCycle.java)
 - [71. 两数相加(2)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/list_node/AddTwoNumbers.java)
 - [72. 两两交换链表中的节点(24)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/list_node/SwapPairs.java)
-- [73. 排序链表(148)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/list_node/Solotion.java#sortList)
+- [73. 排序链表(148)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/list_node/Solution.java#L12)
 # 数组/字符串
 - [1. 有效的数独](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/validSudoku/Solution.java)
 - [2. 分发糖果](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/arrayString/disCandy/Solution.java)
