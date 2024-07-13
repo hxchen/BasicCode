@@ -139,6 +139,7 @@
 - [18. 将有序数组转换为二叉搜索树(108)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/sortArrayToBST/Solution.java)
 - [19. 验证二叉搜索树(98)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/isValidBST/Solution.java)
 - [20. 二叉搜索树中第K小的元素(230)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/kthSmallest/Solution.java)
+- [21. 二叉树展开为链表(114)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/flatten/Solution.java)
 # 递归/回溯
 解题思路：回溯的问题，可以先画出来深度优先搜索树，然后处理，递归，回溯(该撤销操作的一定要撤销)
 - [1. 子集(78)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/subsets/Solution.java)
