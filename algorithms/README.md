@@ -136,6 +136,8 @@
 - [15. 二叉树的最大深度(104)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/maxDepth/Solution.java)
 - [16. 对称二叉树(101)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/isSymmetric/Solution.java)
 - [17. 二叉树的直径(543)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/diameterOfBinaryTree/Solution.java)
+- [18. 将有序数组转换为二叉搜索树(108)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/sortArrayToBST/Solution.java)
+- [19. 验证二叉搜索树(98)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/isValidBST/Solution.java)
 # 递归/回溯
 解题思路：回溯的问题，可以先画出来深度优先搜索树，然后处理，递归，回溯(该撤销操作的一定要撤销)
 - [1. 子集(78)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/subsets/Solution.java)
