@@ -141,6 +141,7 @@
 - [20. 二叉搜索树中第K小的元素(230)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/kthSmallest/Solution.java)
 - [21. 二叉树展开为链表(114)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/flatten/Solution.java)
 - [22. 从前序与中序遍历序列构造二叉树(105)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/buildtree/Solution.java)
+- [14. 路径总和3(437)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bfsOrDfs/pathSum/Solution.java)
 # 递归/回溯
 解题思路：回溯的问题，可以先画出来深度优先搜索树，然后处理，递归，回溯(该撤销操作的一定要撤销)
 - [1. 子集(78)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/subsets/Solution.java)
@@ -157,6 +158,7 @@
 - [11. 矩阵中的最短路径和(DFS&BFS)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/shortestPathInMatrix/Solution.java)
 - [12. 路径总和(112)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/pathSum/Solution.java)
 - [13. 复原IP地址(93)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/recursion/restoreIpAddress/Solution.java)
+
 # 动态规划
 解题思路：(最大最小问题？)找扩散转移方程、临界条件.dp 可能是一维的，也可能是二维的。
 对于矩阵中的最短路径和，我们提供了高效的DP解法，以及DFS递归解法和BFS队列解法，可以作为典型来学习。
