@@ -186,6 +186,7 @@
 - [20. 杨辉三角(118)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/pascalsTriangle/Solution.java)
 - [21. 矩阵中的最短路径和](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/shortestPathInMatrix/Solution.java)
 - [22. 最大子序和](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/FindMaxSumOfSubArrays/Solution.java)
+- [23. 乘积最大子数组](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/maxProduct/Solution.java)
 # 位运算
 - [1. 数字范围按位与(201)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bitOperation/rangeBitwiseAnd/Solution.java)
 - [2. 2的幂(231)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bitOperation/powerOfTwo/Solution.java)
