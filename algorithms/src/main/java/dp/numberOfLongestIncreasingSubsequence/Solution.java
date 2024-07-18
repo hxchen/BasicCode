@@ -53,6 +53,39 @@ public class Solution {
         return ans;
     }
 
+    /**
+     * 1. 定义状态：
+     * dp[i] 表示以 nums[i] 结尾的最长递增子序列的长度。
+     *
+     * 2. 状态转移方程：
+     * 对于每个位置 i，我们需要检查 0 到 i-1 的每个位置 j，如果 nums[j] < nums[i]，则 dp[i] 可以更新为 dp[j] + 1。
+     * 具体的转移方程为：
+     * dp[i]=max(dp[i],dp[j]+1)for all j<i and nums[j]<nums[i]
+     *
+     * 3. 初始化：
+     * 每个位置的初始值都为 1，因为每个元素本身就可以是一个长度为 1 的递增子序列。
+     *
+     * 4. 最终结果：
+     * 所有 dp[i] 中的最大值即为最长递增子序列的长度。
+     * @param nums
+     * @return
+     */
+    public int lengthOfLIS(int[] nums) {
+        int n = nums.length;
+        int[] dp = new int[n];
+        int maxLen = 0;
+        for (int i = 0; i < n; i++) {
+            dp[i] = 1;
+            for (int j = 0; j < i; j++) {
+                if (nums[i] > nums[j]) {
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
+                }
+            }
+            maxLen = Math.max(maxLen, dp[i]);
+        }
+        return maxLen;
+    }
+
     @Test
     public void Test1(){
         Assert.assertTrue(findNumberOfLIS(new int[]{1,3,5,4,7}) == 2);
