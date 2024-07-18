@@ -188,6 +188,7 @@
 - [22. 最大子序和](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/FindMaxSumOfSubArrays/Solution.java)
 - [23. 乘积最大子数组](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/maxProduct/Solution.java)
 - [24. 完全平方数(270)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/numSquares/Solution.java)
+- [25. 分割等和子集(416)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/dp/canPartition/Solution.java)
 # 位运算
 - [1. 数字范围按位与(201)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bitOperation/rangeBitwiseAnd/Solution.java)
 - [2. 2的幂(231)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/bitOperation/powerOfTwo/Solution.java)
