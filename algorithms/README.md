@@ -199,5 +199,6 @@
 - [3. 直线上最多的点数(149)](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/maxPointsOnALine/Solution.java)
 - [4. 阶乘和进制转换](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/factorialConversion/Solution.java)
 - [5. 课程表(207)-拓扑排序](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/courseSchedule/Solution.java)
+- [6. 多数元素(169)-摩尔投票算法](https://github.com/hxchen/BasicCode/blob/master/algorithms/src/main/java/other/majorityElement/Solution.java)
 
 
