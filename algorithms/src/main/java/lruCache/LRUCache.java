@@ -39,7 +39,7 @@ public class LRUCache<K, V> {
         tail.prev = head;
     }
 
-    public V get(int key) {
+    public V get(K key) {
         DLinkedNode node = cacheMap.get(key);
         if (node == null) {
             return null;
